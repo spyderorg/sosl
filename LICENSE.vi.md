@@ -1,110 +1,109 @@
-```markdown
-# Giấy Phép An Ninh Mở SPYDER (SOSL) 1.0 
+# Giấy phép Bảo mật Mở SPYDER (SOSL) 1.0
 
-## Bản Dịch
+## Bản dịch
 
-Để có danh sách đầy đủ các bản dịch, xin vui lòng xem kho gốc của giấy phép tại trang tổ chức SPYDER trên GitHub tại đây: [Spyder Open Security License (SOSL) 1.0](https://github.com/spyderorg/sosl).
+Để xem danh sách đầy đủ các bản dịch, vui lòng xem kho giấy phép gốc
+nằm tại trang tổ chức SPYDER trên GitHub ở đây: [Giấy phép Bảo mật Mở SPYDER (SOSL) 1.0](https://github.com/spyderorg/sosl).
 
-## Định Nghĩa 
+## Định nghĩa
 
 - **"Hệ Thống Trí Tuệ Nhân Tạo" (AI System):** 
-    Bất kỳ công nghệ học máy hoặc trí tuệ nhân tạo nào tạo ra mã hoặc đóng góp với rất ít sự can thiệp trực tiếp của con người. "Ít sự can thiệp trực tiếp của con người" đề cập đến sự tham gia hạn chế của con người chủ yếu cho việc giám sát hoặc phê duyệt cuối cùng. Đóng góp kết hợp tài liệu đã được cấp phép phải tuân thủ các điều khoản giấy phép gốc. Cho mục đích của giấy phép này, "ít" được định nghĩa là dưới 10% tổng nỗ lực phát triển. Các đóng góp tạo ra bởi AI phải đi kèm với quy trình công bố chi tiết và xác minh như được nêu bởi bên cấp phép.
+    Bất kỳ công nghệ học máy hoặc trí tuệ nhân tạo nào tạo ra mã hoặc đóng góp với sự tham gia trực tiếp tối thiểu của con người. "Sự tham gia trực tiếp tối thiểu của con người" đề cập đến sự tham gia giới hạn của con người chủ yếu để giám sát hoặc phê duyệt cuối cùng. Các đóng góp kết hợp tài liệu đã được cấp phép phải tuân theo các điều khoản giấy phép gốc. Đối với mục đích của giấy phép này, "tối thiểu" được định nghĩa là ít hơn 10% tổng nỗ lực phát triển. Các đóng góp do AI tạo ra phải đi kèm với quy trình tiết lộ và xác minh chi tiết như được nêu bởi Người Cấp Phép.
 
 - **"Đóng Góp":** 
-    Bất kỳ tác phẩm gốc nào bao gồm các chỉnh sửa hoặc bổ sung vào tác phẩm hiện có, được gửi tới bên cấp phép để được bao gồm trong Tác Phẩm, bởi một cá nhân, tổ chức pháp lý, hoặc Hệ Thống AI. Điều này bao gồm bất kỳ tài liệu nào mới hoặc thêm giá trị cho Tác Phẩm. Các đóng góp phải có giá trị thực sự và không bao gồm các thay đổi nhỏ.
+    Bất kỳ tác phẩm gốc của quyền tác giả, bao gồm các sửa đổi hoặc bổ sung vào tác phẩm hiện có, đã được gửi đến Người Cấp Phép để đưa vào Tác Phẩm, bởi một cá nhân, pháp nhân hoặc Hệ Thống AI. Điều này bao gồm bất kỳ tài liệu nào là mới lạ hoặc thêm giá trị cho Tác Phẩm. Các đóng góp phải có tính bản chất và không bao gồm những thay đổi cỏn con.
 
 - **"Doanh Nghiệp":**
-    Một tổ chức có doanh thu hàng năm vượt quá 10 triệu USD trong năm tài chính trước hoặc hơn 100 nhân viên. Các thực thể sử dụng cơ cấu phức tạp để tránh ngưỡng này, chẳng hạn như chia nhỏ thành các thực thể nhỏ hơn, cũng được bao gồm. Tổng doanh thu và số lượng nhân viên sẽ được tổng hợp cho các thực thể liên quan dưới sự kiểm soát chung.
+    Một tổ chức có doanh thu hàng năm vượt quá 10 triệu USD trong năm tài chính trước đó hoặc có hơn 100 nhân viên. Các thực thể sử dụng cấu trúc phức tạp để tránh ngưỡng này, chẳng hạn như chia thành các thực thể nhỏ hơn, đều được tính. Tổng doanh thu và số lượng nhân viên sẽ được tổng hợp cho các thực thể có liên quan dưới sự kiểm soát chung.
 
-- **"Sửa Lỗi An Ninh":**
-    Bất kỳ sửa đổi nào giải quyết một lỗ hổng an ninh, được chỉ định là Sửa Lỗi An Ninh bởi người gửi và được chấp nhận bởi bên cấp phép theo các tiêu chí và quy trình chấp nhận đã nêu rõ bởi bên cấp phép. Các tiêu chí bao gồm một mô tả chi tiết về lỗ hổng, đánh giá tác động, và bằng chứng thử nghiệm xác nhận việc sửa chữa.
+- **"Sửa lỗi Bảo mật":**
+    Bất kỳ sửa đổi nào giải quyết một lỗ hổng bảo mật, được chỉ định là Sửa lỗi Bảo mật bởi người gửi và được chấp nhận bởi Người Cấp Phép theo các tiêu chí và quy trình chấp nhận cụ thể nêu ra bởi Người Cấp Phép. Các tiêu chí bao gồm một mô tả chi tiết về lỗ hổng, đánh giá tác động và bằng chứng kiểm tra xác nhận sửa lỗi.
 
-- **"Đóng Góp Được Xác Minh":**
-    Một Đóng Góp được xem xét và xác nhận bởi người đóng góp là hoạt động như mong đợi và tuân thủ Giấy Phép này, đặc biệt nếu được tạo ra bởi một Hệ Thống AI. Điều này bao gồm chạy các bài kiểm tra và đảm bảo nó không vi phạm bất kỳ quyền của bên thứ ba nào. Xác minh phải bao gồm tài liệu chi tiết về quá trình kiểm tra và kết quả.
+- **"Đóng Góp Đã Xác Nhận":**
+    Một Đóng Góp đã được xem xét và xác nhận bởi người đóng góp để hành xử như dự định và tuân thủ Giấy Phép này, đặc biệt nếu được tạo ra bởi một Hệ Thống AI. Điều này bao gồm việc chạy các bài kiểm tra và đảm bảo nó không vi phạm quyền của bên thứ ba nào. Việc xác minh phải bao gồm tài liệu toàn diện về quy trình và kết quả kiểm tra.
 
 - **"Tác Phẩm":**
-    Tập hợp phần mềm, nội dung và tài liệu được bao phủ bởi Giấy Phép này, bao gồm tất cả các Đóng Góp được thực hiện bởi những người đóng góp khác nhau.
+    Tập hợp phần mềm, nội dung và tài liệu được bao quát bởi Giấy Phép này, bao gồm tất cả các Đóng Góp của các nhà đóng góp khác nhau.
 
-- **"Sử Dụng":**
-    Mức độ mà một Doanh Nghiệp sử dụng Tác Phẩm, được đo lường bởi các yếu tố như số lượng người dùng cuối, quy mô triển khai, hoặc tích hợp vào các sản phẩm hay dịch vụ. Các chỉ số cụ thể sẽ được cung cấp bởi bên cấp phép khi cần và phải được báo cáo chính xác và định kỳ bởi Doanh Nghiệp.
+- **"Sử dụng":**
+    Mức độ mà một Doanh Nghiệp sử dụng Tác Phẩm, được đo lường bằng các yếu tố như số lượng người dùng cuối, quy mô triển khai hoặc tích hợp vào các sản phẩm hoặc dịch vụ. Các chỉ số cụ thể sẽ được cung cấp bởi Người Cấp Phép khi cần thiết và phải được báo cáo chính xác và định kỳ bởi Doanh Nghiệp.
 
 - **"Bạn" (hoặc "Của Bạn"):**
-    Một cá nhân hoặc tổ chức pháp lý thực hiện quyền hạn được cấp bởi Giấy Phép này.
+    Một cá nhân hoặc pháp nhân thực hiện các quyền được cấp theo Giấy Phép này.
 
 ## Cấp Phép
 
-1. **Phân Phối và Sử Dụng:**
-    Bạn có thể sao chép, chuẩn bị các tác phẩm phái sinh, hiển thị công khai, phân phối và thực hiện Tác Phẩm và các tác phẩm phái sinh ở dạng mã nguồn hoặc đối tượng. Các yêu cầu về ghi công phải được đáp ứng khi áp dụng, theo các hướng dẫn được cung cấp bởi bên cấp phép. Ghi công phải bao gồm tác giả gốc, tên của Tác Phẩm, và liên kết đến kho lưu trữ gốc. Phân phối các tác phẩm phái sinh dưới dạng đối tượng phải đi kèm mã nguồn Tương Ứng.
+1. **Tái phân phối và Sử dụng:**
+    Bạn có thể sao chép, chuẩn bị các tác phẩm phái sinh, hiển thị công khai, phân phối và thực hiện Tác Phẩm và các tác phẩm phái sinh dưới dạng mã nguồn hoặc đối tượng. Yêu cầu ghi công phải được đáp ứng ở nơi áp dụng, tuân theo các hướng dẫn được cung cấp bởi Người Cấp Phép. Ghi công phải bao gồm tác giả gốc, tên của Tác Phẩm và liên kết đến kho gốc. Việc phân phối các tác phẩm phái sinh dưới dạng mã đối tượng phải đi kèm với mã Nguồn Tương ứng.
 
 2. **Cấp Phép Bằng Sáng Chế:**
-    Mỗi người đóng góp cấp cho Bạn giấy phép bằng sáng chế vĩnh viễn, toàn cầu, không độc quyền, miễn phí, miễn phí bản quyền, không thể hủy ngang để làm, sử dụng, cung cấp để bán, bán, nhập khẩu, và chuyển nhượng Tác Phẩm. Các xung đột với các giấy phép hoặc bằng sáng chế khác nắm giữ bởi những người đóng góp phải được giải quyết thông qua quy trình cụ thể bởi bên cấp phép, bao gồm hòa giải hoặc trọng tài.
+    Mỗi Nhà Đóng Góp cấp cho Bạn một giấy phép sáng chế vĩnh viễn, toàn cầu, không độc quyền, miễn phí, không thể huỷ bỏ để chế tạo, sử dụng, đề xuất bán, bán, nhập khẩu và chuyển giao Tác Phẩm. Các xung đột với các giấy phép hoặc bằng sáng chế khác mà các nhà đóng góp nắm giữ phải được giải quyết thông qua quy trình cụ thể do Người Cấp Phép nêu ra, bao gồm việc hoà giải hoặc trọng tài.
 
-3. **Đóng Góp Các Sửa Lỗi An Ninh:**
-    Nếu Bạn thực hiện hoặc nhận biết được một Sửa Lỗi An Ninh, Bạn phải gửi nó tới bên cấp phép theo quy trình cụ thể, bao gồm cung cấp tài liệu chi tiết và mã. Quá trình phải bao gồm một báo cáo lỗ hổng, các bước để tái tạo, và bằng chứng của việc sửa chữa. Các bản gửi có sự trợ giúp của AI phải là Đóng Góp Được Xác Minh.
+3. **Đóng Góp Sửa Lỗi Bảo Mật:**
+    Nếu Bạn thực hiện hoặc biết đến một Sửa lỗi Bảo mật, Bạn phải gửi nó đến Người Cấp Phép theo quy trình được nêu ra, bao gồm cung cấp tài liệu và mã chi tiết. Quy trình phải bao gồm một báo cáo lỗ hổng, các bước để tái tạo và bằng chứng về sửa lỗi. Các gửi gắm trợ giúp bởi AI phải là Đóng Góp Đã Xác Nhận.
 
-4. **Đóng Góp Tạo Ra Bởi AI:**
-    Các Đóng Góp tạo ra bởi AI phải được công bố và xác minh. Bạn chịu trách nhiệm về sự tuân thủ và không vi phạm quyền của bên thứ ba của chúng. Xác minh phải bao gồm tài liệu về quá trình tạo ra bởi AI và các bước thực hiện để đảm bảo tuân thủ. Các tranh chấp về tuân thủ và vi phạm quyền của bên thứ ba sẽ được xử lý thông qua quy trình được nêu bởi bên cấp phép, bao gồm việc kiểm tra độc lập và trọng tài. Các đóng góp tạo ra bởi AI phải được mở nguồn theo Giấy Phép này.
+4. **Đóng Góp Do AI Tạo Ra:**
+    Các đóng góp do AI tạo ra phải được tiết lộ và xác minh. Bạn chịu trách nhiệm về việc tuân thủ và không vi phạm quyền của bên thứ ba. Việc xác minh phải bao gồm tài liệu về quy trình tạo ra bởi AI và các bước đã thực hiện để đảm bảo tuân thủ. Các tranh chấp về sự tuân thủ và vi phạm quyền của bên thứ ba sẽ được xử lý thông qua quy trình do Người Cấp Phép quy định, bao gồm kiểm tra độc lập và trọng tài. Các đóng góp do AI tạo ra phải được mã nguồn mở dưới Giấy Phép này.
 
-5. **Tùy Chọn Tài Trợ hoặc Copyleft cho Doanh Nghiệp:**
-    >Nếu Bạn là một Doanh Nghiệp:
+5. **Tùy chọn Tài Trợ hoặc Mở nguồn cho Doanh Nghiệp:**
+    > Nếu Bạn là một Doanh Nghiệp:
 
-    1. Bạn có thể đóng góp tài chính cho việc bảo trì và phát triển Tác Phẩm, với số tiền được nêu bởi bên cấp phép. Các số tiền đóng góp cụ thể và chi tiết thanh toán sẽ được nêu rõ bởi bên cấp phép, dựa trên các yếu tố như quy mô của Doanh Nghiệp và mức độ sử dụng.
+    1. Bạn có thể đóng góp tài chính vào việc duy trì và phát triển Tác Phẩm, với các khoản tiền được quy định bởi Người Cấp Phép. Các khoản đóng góp cụ thể và chi tiết thanh toán sẽ được nêu ra bởi Người Cấp Phép, dựa trên các yếu tố như kích thước của Doanh Nghiệp và mức độ sử dụng.
 
-    2. Nếu chọn không đóng góp tài chính, bạn phải phát hành toàn bộ ứng dụng, nếu nó bao gồm Tác Phẩm, theo Giấy Phép này hoặc một giấy phép nguồn mở tương thích với các điều khoản copyleft. Bạn cũng phải cung cấp cho tất cả người dùng quyền truy cập vào mã nguồn Tương Ứng của ứng dụng theo Giấy Phép này. "Mã nguồn Tương Ứng" bao gồm tất cả mã nguồn cần thiết để xây dựng, duy trì, và chỉnh sửa ứng dụng, bao gồm các kịch bản xây dựng và hướng dẫn cài đặt.
+    2. Nếu từ chối đóng góp tài chính, bạn phải phát hành toàn bộ ứng dụng, nếu nó bao gồm Tác Phẩm, dưới Giấy Phép này hoặc một giấy phép mã nguồn mở tương thích với các điều khoản copyleft. Bạn cũng phải cung cấp cho tất cả người dùng quyền truy cập vào Mã Nguồn Tương ứng của ứng dụng theo Giấy Phép này. "Mã Nguồn Tương ứng" bao gồm tất cả mã nguồn cần thiết để xây dựng, duy trì và sửa đổi ứng dụng, bao gồm các kịch bản xây dựng và hướng dẫn cài đặt.
 
-6. **Phiên Bản và Nâng Cấp Giấy Phép:**
-    Bạn đồng ý bị ràng buộc bởi phiên bản hiện tại của SOSL như được chỉ định bởi bên cấp phép. Bạn sẽ được thông báo về các phiên bản mới thông qua các kênh liên lạc chính thức của bên cấp phép, và quy trình chuyển tiếp sang các phiên bản mới sẽ được nêu rõ bởi bên cấp phép. Chuyển tiếp sang các phiên bản mới phải hoàn thành trong vòng sáu tháng kể từ khi được thông báo.
+6. **Phiên bản và Nâng cấp Giấy Phép:**
+    Bạn đồng ý bị ràng buộc bởi phiên bản SOSL hiện tại như được quy định bởi Người Cấp Phép. Bạn sẽ được thông báo về các phiên bản mới qua các kênh thông tin chính thức của Người Cấp Phép, và quy trình chuyển đổi sang các phiên bản mới sẽ được nêu ra chi tiết bởi Người Cấp Phép. Việc chuyển đổi sang các phiên bản mới phải được hoàn thành trong vòng sáu tháng kể từ khi thông báo.
 
-## Tiết Lộ Có Trách Nhiệm về Lỗ Hổng
+## Tiết lộ Trách nhiệm về Lỗ hổng
 
-7. **Tiết Lộ Lỗ Hổng:**
-    > Nếu Bạn phát hiện một Lỗ Hổng trong Tác Phẩm:
+7. **Tiết lộ Lỗ hổng:**
+    > Nếu Bạn phát hiện một Lỗ hổng trong Tác Phẩm:
 
-    - Nhanh chóng thông báo cho bên cấp phép một cách bảo mật, theo quy trình được định nghĩa bởi bên cấp phép. Thời gian thông báo điển hình là trong vòng 14 ngày kể từ khi phát hiện. Các thông báo phải bao gồm một báo cáo chi tiết về lỗ hổng.
+    - Nhanh chóng thông báo bảo mật cho Người Cấp Phép, theo quy trình do Người Cấp Phép định nghĩa. Thời hạn thông báo điển hình là trong vòng 14 ngày kể từ khi phát hiện. Các thông báo phải bao gồm một báo cáo chi tiết về lỗ hổng.
 
-    - Cung cấp một thời gian hợp lý, thường là 90 ngày, cho bên cấp phép để giải quyết Lỗ Hổng trước khi tiết lộ công khai. Việc gia hạn thời gian này phải được đồng ý bằng văn bản.
+    - Cung cấp một khoảng thời gian thường là 90 ngày cho Người Cấp Phép để giải quyết Lỗ hổng trước khi tiết lộ công khai. Các gia hạn cho thời gian này phải được thỏa thuận bằng văn bản.
 
-    - Tránh khai thác Lỗ Hổng theo cách có thể gây hại cho bên cấp phép, người dùng, hoặc công chúng. 
+    - Tránh khai thác Lỗ hổng theo cách có thể gây hại cho Người Cấp Phép, người sử dụng hoặc công chúng.
 
-## Điều Kiện và Giới Hạn
+## Điều kiện và Hạn chế
 
-- **Mã Nguồn và Tập Tin Sửa Đổi:**
-    Mã nguồn phải được cung cấp dưới dạng có thể sửa đổi. Phân phối Tác Phẩm dưới dạng đã được sửa đổi và các tập tin sửa đổi để chỉnh sửa trong thời gian xây dựng được cho phép. "Dạng có thể sửa đổi" bao gồm mã nguồn ở định dạng có thể chỉnh sửa và biên dịch lại, chẳng hạn như tập tin văn bản dạng đơn giản hoặc các tập tin có thể mở trong các môi trường phát triển tiêu chuẩn. Nó cũng phải bao gồm bất kỳ tài liệu cần thiết nào để hiểu và xây dựng mã nguồn. Các tác phẩm phái sinh phân phối dưới dạng đối tượng phải bao gồm mã nguồn Tương Ứng.
+- **Mã Nguồn và Tệp Vá:**
+    Mã nguồn phải được cung cấp ở dạng có thể chỉnh sửa. Việc phân phối Tác Phẩm ở dạng đã chỉnh sửa và các tệp vá cho các sửa đổi thời gian xây dựng được phép. "Dạng có thể chỉnh sửa" bao gồm mã nguồn ở định dạng cho phép chỉnh sửa và biên dịch lại, chẳng hạn như các tệp văn bản thường hoặc các tệp có thể mở trong các môi trường phát triển tiêu chuẩn. Nó cũng phải bao gồm bất kỳ tài liệu cần thiết nào để hiểu và xây dựng mã nguồn. Các tác phẩm phái sinh được phân phối dưới dạng mã đối tượng phải đi kèm mã Nguồn Tương ứng.
 
-- **Các Tác Phẩm Phái Sinh:**
-    Các sửa đổi và tác phẩm phái sinh phải được phép theo các điều khoản giống như tác phẩm gốc. Sự công nhận Tác Phẩm gốc phải được bao gồm trong các tác phẩm phái sinh, rõ ràng chỉ ra nguồn gốc của Tác Phẩm gốc, và phải tuân theo các yêu cầu ghi công đã nêu bởi bên cấp phép. Tất cả các tác phẩm phái sinh phải được cấp phép theo Giấy Phép này.
+- **Tác phẩm phái sinh:**
+    Các sửa đổi và tác phẩm phái sinh phải được phép theo cùng các điều khoản như Tác Phẩm gốc. Phải có sự thừa nhận về Tác Phẩm gốc trong các tác phẩm phái sinh, rõ ràng chỉ ra nguồn gốc của Tác Phẩm gốc, và phải tuân theo các yêu cầu ghi công được quy định bởi Người Cấp Phép. Tất cả các tác phẩm phái sinh phải được cấp phép dưới Giấy Phép này.
 
-- **Sử Dụng Thương Hiệu:**
-    Không có quyền nào được cấp để sử dụng các tên thương mại, nhãn hiệu, nhãn dịch vụ, hoặc tên sản phẩm của bên cấp phép, ngoại trừ để mô tả nguồn gốc của Tác Phẩm. Bất kỳ sử dụng nào khác yêu cầu sự cho phép bằng văn bản của bên cấp phép. Sử dụng mô tả phải giới hạn trong các tuyên bố thực tế về nguồn gốc và không được ngụ ý sự chứng thực.
+- **Sử dụng Thương hiệu:**
+    Không có phép sử dụng tên thương mại, nhãn hiệu, nhãn hiệu dịch vụ hoặc tên sản phẩm của Người Cấp Phép, ngoại trừ việc mô tả nguồn gốc của Tác Phẩm. Bất kỳ sử dụng nào khác yêu cầu sự cho phép bằng văn bản từ Người Cấp Phép. Sử dụng mô tả phải giới hạn vào các tuyên bố thực tế về nguồn gốc và không được ngụ ý ủng hộ.
 
-- **Giải Quyết Tranh Chấp:**
-    Các tranh chấp sẽ được giải quyết theo luật pháp của khu vực mà chủ sở hữu kho gốc cư trú, và theo các luật của khu vực đó. Một điều khoản trọng tài có thể được bao gồm để cung cấp một quá trình giải quyết nhanh hơn, trong đó trọng tài sẽ được tiến hành theo các quy tắc do bên cấp phép nêu rõ. Trọng tài sẽ diễn ra tại một địa điểm trung lập được cả hai bên đồng ý.
+- **Giải quyết tranh chấp:**
+    Tranh chấp sẽ được giải quyết theo luật pháp của khu vực tài phán nơi chủ sở hữu kho nguyên bản cư trú, và tuân theo luật pháp của khu vực tài phán đó. Một điều khoản trọng tài có thể được bao gồm để cung cấp quá trình giải quyết nhanh hơn, trong đó trọng tài sẽ được thực hiện theo các quy tắc được quy định bởi Người Cấp Phép. Trọng tài sẽ diễn ra ở một địa điểm trung lập được hai bên đồng ý.
 
-- **Chấm Dứt:**
-    Giấy Phép sẽ tự động chấm dứt khi có bất kỳ vi phạm nào từ phía Bạn. Các tác phẩm phái sinh từ các thực thể tuân thủ sẽ không bị chấm dứt giấy phép. Quy trình xử lý và khắc phục các vi phạm trước khi chấm dứt sẽ được nêu rõ bởi bên cấp phép, cung cấp một khoảng thời gian hợp lý (thường là 30 ngày) để khắc phục vi phạm. Nếu vi phạm không được khắc phục trong khoảng thời gian này, việc chấm dứt sẽ tiến hành.
+- **Chấm dứt:**
+    Giấy Phép sẽ tự động chấm dứt khi Bạn vi phạm bất kỳ điều khoản nào. Các tác phẩm phái sinh từ các thực thể tuân thủ sẽ không bị chấm dứt giấy phép của họ. Quy trình giải quyết và khắc phục vi phạm trước khi chấm dứt sẽ được Người Cấp Phép quy định, cung cấp một khoảng thời gian hợp lý (thường là 30 ngày) để khắc phục vi phạm. Nếu vi phạm không được khắc phục trong khoảng thời gian này, việc chấm dứt sẽ được tiến hành.
 
-## Miễn Trách Nhiệm Bảo Hành và Giới Hạn Trách Nhiệm
+## Tuyên Bố Miễn Trách Nhiệm và Giới Hạn Trách Nhiệm
 
-- **Miễn Trách Nhiệm Bảo Hành:**
-    Tác Phẩm được cung cấp "như hiện có," không có bảo hành nào hết, rõ ràng hay ngụ ý, bao gồm nhưng không giới hạn các bảo hành về khả năng thương mại, phù hợp cho một mục đích cụ thể và không vi phạm. Bên cấp phép và các người đóng góp không đảm bảo về hiệu suất hoặc sự phù hợp của Tác Phẩm cho bất kỳ sử dụng cụ thể nào. Tuyên bố miễn trừ này áp dụng ở mức tối đa được pháp luật cho phép.
+- **Tuyên Bố Miễn Trách Nhiệm:** 
+    Tác Phẩm được cung cấp "nguyên trạng," không có bảo hành nào, dù là rõ ràng hay ngụ ý, bao gồm nhưng không giới hạn ở các bảo hành về tính thương mại, phù hợp với một mục đích cụ thể, và không vi phạm. Người Cấp Phép và những người đóng góp không bảo đảm về hiệu suất hoặc sự phù hợp của Tác Phẩm cho bất kỳ mục đích cụ thể nào. Tuyên bố miễn trách nhiệm này áp dụng trong phạm vi pháp luật cho phép.
 
-- **Giới Hạn Trách Nhiệm:**
-    Trong mọi trường hợp, bên cấp phép hoặc các người đóng góp sẽ không chịu trách nhiệm về bất kỳ khiếu nại, thiệt hại hay trách nhiệm nào khác, dù trong hành động hợp đồng, lỗi, hoặc cách khác, phát sinh từ, hoặc liên quan đến, Tác Phẩm hoặc việc sử dụng hoặc giao dịch khác trong Tác Phẩm. Điều này bao gồm, nhưng không giới hạn, các thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hệ quả hoặc trừng phạt. Các ngoại lệ theo quy định có thể áp dụng.
+- **Giới Hạn Trách Nhiệm:** 
+    Trong mọi trường hợp, Người Cấp Phép hoặc những người đóng góp sẽ không chịu trách nhiệm đối với bất kỳ khiếu nại, thiệt hại hoặc trách nhiệm pháp lý nào, cho dù trong hành động hợp đồng, tội ác hoặc bằng cách khác, phát sinh từ, ngoài hoặc liên quan đến Tác Phẩm hoặc việc sử dụng hoặc các giao dịch khác liên quan đến Tác Phẩm. Điều này bao gồm nhưng không giới hạn ở các thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hậu quả, hoặc mang tính trừng phạt. Các ngoại lệ theo luật định cho giới hạn này có thể áp dụng.
 
-## Diễn Giải và Sửa Đổi
+## Giải Thích và Sửa Đổi
 
-- **Diễn Giải:**
-    Bất kỳ sự mập mờ hoặc tình huống không lường trước sẽ được xử lý theo ý định chung của Giấy Phép. Các diễn giải cụ thể có thể được đưa ra bởi bên cấp phép, và các diễn giải này sẽ ràng buộc. Trong trường hợp tranh chấp, một trọng tài viên trung lập có thể được chỉ định để giải quyết các sự mập mờ.
+- **Giải Thích:**
+    Bất kỳ sự không rõ ràng hoặc tình huống không lường trước nào sẽ được xử lý theo ý định chung của Giấy Phép. Các giải thích cụ thể có thể được quy định bởi Người Cấp Phép, và những giải thích này sẽ có tính ràng buộc. Trong các trường hợp tranh chấp, một bên trung lập có thể được chỉ định để giải quyết các sự không rõ ràng.
 
 - **Sửa Đổi:**
-    Các thay đổi đối với Giấy Phép sẽ được xử lý theo quy trình được nêu bởi bên cấp phép. Người dùng sẽ được thông báo về bất kỳ sửa đổi nào thông qua các kênh liên lạc chính thức của bên cấp phép và được cung cấp lý do và tác động. Người dùng sẽ có cơ hội cung cấp phản hồi hoặc phản đối trong một khoảng thời gian nhất định (thường là 60 ngày). Các sửa đổi quan trọng yêu cầu sự chấp thuận đa số từ các người đóng góp.
+    Các thay đổi đối với Giấy Phép sẽ được xử lý theo quy trình do Người Cấp Phép quy định. Người dùng sẽ được thông báo về bất kỳ sửa đổi nào qua các kênh thông tin chính thức của Người Cấp Phép và được cung cấp lý do và tác động của các sửa đổi. Người dùng sẽ có cơ hội cung cấp phản hồi hoặc phản đối trong khoảng thời gian quy định (thường là 60 ngày). Các sửa đổi đáng kể yêu cầu sự chấp thuận của đa số các nhà đóng góp.
 
-## Đề Nghị Đầu Tập Tin Mã
+## Đề Xuất Đầu Trang Mã
 
 ```plaintext
-Bản quyền (c) {{năm}} bởi {{tên}}.
+Bản quyền (c) {{year}} bởi {{name}}.
 
-Tập tin này được cấp phép theo Giấy Phép An Ninh Mở Spyder (SOSL) 1.0.
+Tệp này được cấp phép dưới Giấy phép Bảo mật Mở SPYDER (SOSL) 1.0.
 Xem tệp LICENSE.md để biết chi tiết.
-```
 ```

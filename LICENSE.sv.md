@@ -2,106 +2,211 @@
 
 ## Översättningar
 
-För en komplett lista på översättningar, se licensens ursprungsarkiv som finns på SPYDER:s organisationssida på GitHub här: [SPYDER Open Security License (SOSL) 1.0](https://github.com/spyderorg/sosl).
+För en komplett lista med översättningar, se licensens ursprungliga förvar som finns på SPYDERs organisationssida på GitHub här: [SPYDER Öppen Säkerhetslicens (SOSL) 1.0](https://github.com/spyderorg/sosl).
 
-## Definitioner 
+## Definitioner
 
-- **"Artificiellt Intelligens System" (AI System):** 
-    Alla maskininlärning eller artificiell intelligens teknologi som genererar kod eller bidrag med minimalt direkt mänskligt inlägg. "Minimalt direkt mänskligt inlägg" avser begränsat mänskligt engagemang främst för övervakning eller slutgiltigt godkännande. Bidrag som innehåller befintligt licensierat material måste följa de ursprungliga licensvillkoren. För denna licens definieras "minimalt" som mindre än 10% av den totala utvecklingsinsatsen. AI-genererade bidrag måste åtföljas av en detaljerad avslöjande- och verifieringsprocess enligt Licensgivarens riktlinjer.
+- **"Artificiellt Intelligenssystem" (AI-system):** 
+    All maskininlärning eller artificiell intelligens-teknologi som genererar
+    kod eller bidrag med minimal direkt mänsklig inblandning. "Minimal direkt
+    mänsklig inblandning" avser begränsat mänskligt engagemang främst för övervakning
+    eller slutligt godkännande. Bidrag som innehåller existerande licensierat material 
+    måste följa de ursprungliga licensvillkoren. För syftet med denna licens definieras 
+    "minimal" som mindre än 10% av den totala utvecklingsinsatsen. AI-genererade bidrag 
+    måste åtföljas av en detaljerad redovisning och verifieringsprocess enligt Licensgivarens riktlinjer.
 
 - **"Bidrag":** 
-    Alla originalverk av författarskap, inklusive ändringar eller tillägg till befintligt arbete, som skickats till Licensgivaren för inkludering i verket, av en individ, juridisk person eller AI-system. Detta inkluderar material som är nytt eller som tillför värde till arbetet. Bidrag måste vara substantiella och får inte innehålla triviala ändringar.
+    Varje originalverk av författarskap, inklusive modifieringar eller tillägg till
+    befintligt arbete, som lämnas in till Licensgivaren för inkludering i Arbetet av en
+    individ, juridisk person eller AI-system. Detta inkluderar allt material som är 
+    nyskapande eller som tillför värde till Arbetet. Bidrag måste vara väsentliga och 
+    får inte innehålla triviala ändringar.
 
 - **"Företag":**
-    En organisation med årsintäkter överstigande 10 miljoner USD under föregående räkenskapsår eller med fler än 100 anställda. Enheter som använder komplexa strukturer för att undvika denna tröskel, såsom att delas upp i mindre enheter, inkluderas. De totala intäkterna och antalet anställda kommer att aggregeras för närstående enheter under gemensam kontrol.
+    En organisation med en årlig omsättning överstigande 10 miljoner USD under föregående räkenskapsår 
+    eller fler än 100 anställda. Entiteter som använder komplexa strukturer för att undvika denna tröskel
+    omfattas, såsom delning i mindre enheter. Den totala omsättningen och antalet anställda kommer 
+    att summeras för relaterade entiteter under gemensam kontroll.
 
 - **"Säkerhetsfix":**
-    Alla modifieringar som adresserar en säkerhetsbrist, utpekade som en Säkerhetsfix av inlämnaren och accepterade av Licensgivaren efter uppfyllelse av specificerade acceptanskriterier och process som specificerats av Licensgivaren. Kriterierna inkluderar en detaljerad beskrivning av sårbarheten, effektsbedömning och testbevis som bekräftar fixen.
+    Varje modifiering som åtgärdar en säkerhetsbrist, utpekad som en
+    Säkerhetsfix av inlämnaren och accepterad av Licensgivaren efter de
+    specificerade accepteringskriterierna och processen som anges av
+    Licensgivaren. Kriterierna inkluderar en detaljerad beskrivning av säkerhetsbristen, 
+    en konsekvensanalys och testningsbevis som bekräftar fixen.
 
 - **"Verifierat Bidrag":**
-    Ett bidrag granskat och bekräftat av bidragsgivaren att fungera som avsett och överensstämma med denna licens, särskilt om det genererades av ett AI-system. Detta inkluderar att köra tester och säkerställa att det inte bryter mot några tredje parts rättigheter. Verifieringen måste inkludera omfattande dokumentation av testprocessen och resultaten.
+    Ett Bidrag som har granskats och bekräftats av bidragsgivaren för att
+    bete sig som avsett och följa denna Licens, särskilt om det genererats av ett AI-system.
+    Detta inkluderar att genomföra tester och säkerställa att det inte bryter mot några 
+    tredje parts rättigheter. Verifieringen måste inkludera omfattande dokumentation av testprocessen 
+    och resultaten.
 
-- **"Verk":**
-    Den samlade mjukvara, innehåll och dokumentation som omfattas av denna licens, inklusive alla bidrag gjorda av olika bidragsgivare.
+- **"Arbete":**
+    Den samlade programvaran, innehållet och dokumentationen som täcks av denna
+    Licens, inklusive alla Bidrag som gjorts av olika bidragsgivare.
 
 - **"Användning":**
-    Den utsträckning till vilken ett företag använder verket, mätt med faktorer såsom antalet slutanvändare, skala av distribution, eller integration i produkter eller tjänster. Specifika mätvärden kommer att tillhandahållas av Licensgivaren efter behov och måste rapporteras korrekt och periodiskt av företaget.
+    Den utsträckning i vilken ett Företag använder Arbetet, mätt i faktorer som
+    antalet slutanvändare, utplaceringsskalan eller integrering i produkter eller
+    tjänster. Specifika mått kommer att tillhandahållas av Licensgivaren vid behov och
+    måste rapporteras korrekt och periodiskt av Företaget.
 
 - **"Du" (eller "Din"):**
-    En individ eller juridisk person som utövar rättigheter som beviljats av denna licens.
+    En individ eller juridisk person som utövar de rättigheter som beviljats av
+    denna Licens.
 
-## Licensbeviljningar
+## Licensbeviljanden
 
-1. **Distribution och Användning:**
-    Du får reproducera, förbereda derivatverk, offentligt visa, distribuera och uppföra verket och derivatverk i käll- eller objektform. Attributkrav måste uppfyllas där det är tillämpligt, enligt riktlinjerna från Licensgivaren. Attribut måste inkludera de ursprungliga författarna, verkets namn och en länk till det ursprungliga arkivet. Distribution av derivatverk i objektform måste åtföljas av den motsvarande källkoden.
+1. **Återdistribution och Användning:**
+    Du får reproducera, förbereda avledda verk, offentligt visa, distribuera
+    och framföra Arbetet och avledda verk i källkod eller objektform.
+    Krav på tillskrivning måste uppfyllas där tillämpligt, enligt
+    riktlinjerna som tillhandahålls av Licensgivaren. Tillskrivning måste inkludera de ursprungliga
+    författarna, namnet på Arbetet och en länk till det ursprungliga förvaret.
+    Distribution av avledda verk i objektform måste åtföljas av den
+    motsvarande källkoden.
 
-2. **Patentlicens:**
-    Varje bidragsgivare ger dig en evig, världsomspännande, icke-exklusiv, royaltyfri, oåterkallelig patentlicens att tillverka, använda, erbjuda att sälja, sälja, importera och på annat sätt överföra verket. Konflikter med andra licenser eller patent som innehas av bidragsgivare måste lösas genom den specificerade processen av Licensgivaren, som inkluderar medling eller skiljeförfarande.
+2. **Patentbeviljande:**
+    Varje Bidragsgivare ger dig en evig, världsomspännande, icke-exklusiv,
+    avgiftsfri, royaltyfri, oåterkallelig patentlicens för att skapa, använda, erbjuda
+    till försäljning, sälja, importera och på annat sätt överföra Arbetet. Konflikter med
+    andra licenser eller patent som innehas av bidragsgivare måste lösas genom
+    angiven process av Licensgivaren, som inkluderar medling eller
+    skiljedom.
 
 3. **Bidrag av Säkerhetsfixar:**
-    Om du gör eller blir medveten om en säkerhetsfix måste du skicka in den till Licensgivaren enligt den specificerade processen, inklusive att tillhandahålla detaljerad dokumentation och kod. Processen måste inkludera en sårbarhetsrapport, steg för reproduktion, och bevis på fixen. AI-assisterade inlämningar måste vara verifierade bidrag.
+    Om Du gör eller blir medveten om en Säkerhetsfix, måste du lämna in den till
+    Licensgivaren efter den specificerade processen, som inkluderar att tillhandahålla
+    detaljerad dokumentation och kod. Processen måste inkludera en sårbarhetsrapport,
+    steg för att återskapa och bevis på fixen. AI-assisterade inlämningar
+    måste vara Verified Contributions.
 
 4. **AI-genererade Bidrag:**
-    AI-genererade bidrag måste avslöjas och verifieras. Du är ansvarig för deras överensstämmelse och att de inte inkräktar på tredje parts rättigheter. Verifieringen måste inkludera dokumentation av AI-genereringsprocessen och de steg som tagits för att säkerställa efterlevnad. Tvister om överensstämmelse och inkräktande av tredje parts rättigheter kommer att hanteras genom en process specificerad av Licensgivaren, som inkluderar oberoende granskning och skiljeförfarande. AI-genererade bidrag måste vara öppna enligt denna licens.
+    AI-genererade Bidrag måste redovisas och verifieras. Du är
+    ansvarig för deras efterlevnad och att de inte kränker tredje parts
+    rättigheter. Verifieringen måste inkludera dokumentation av
+    AI-genereringsprocessen och de steg som vidtagits för att säkerställa
+    efterlevnad. Tvister om efterlevnad och intrång i tredje parts rättigheter kommer
+    att hanteras genom en process specificerad av Licensgivaren, som inkluderar oberoende granskning 
+    och skiljedom. AI-genererade bidrag måste vara öppen källkod
+    under denna Licens.
 
-5. **Finansiering eller Copyleft-alternativ för företag:**
-    > Om du är ett företag:
+5. **Finansiering eller Copyleft-alternativ för Företag:**
+    >Om Du är ett Företag:
+    1. Du får bidra finansiellt till underhåll och utveckling av
+        Arbetet, med belopp som specificeras av Licensgivaren. De specifika
+        bidragsbeloppen och betalningsdetaljerna kommer att anges av Licensgivaren,
+        baserat på faktorer som Företagets storlek och användningsnivå.
+    2. Om Du väljer att avstå från finansiellt bidrag, måste du släppa hela 
+        applikationen, om den inkluderar Arbetet, under denna Licens eller en 
+        kompatibel öppen källkod licens med copyleft-bestämmelser. Du måste 
+        även ge alla användare tillgång till applikationens motsvarande källkod 
+        under denna Licens. "Motsvarande källkod" inkluderar all källkod som 
+        behövs för att bygga, underhålla och modifiera applikationen, 
+        inklusive byggskript och installationsinstruktioner.
 
-    1. Du kan bidra ekonomiskt till underhållet och utvecklingen av verket, med belopp specificerade av Licensgivaren. De specifika bidragsbeloppen och betalningsdetaljerna kommer att anges av Licensgivaren, baserat på faktorer såsom företagets storlek och användningsnivå.
+6. **Licensversionering och Uppgraderingar:**
+    Du samtycker till att vara bunden av den aktuella versionen av SOSL som specificeras av 
+    Licensgivaren. Du kommer att meddelas om nya versioner via Licensgivarens 
+    officiella kommunikationskanaler, och processen för att övergå till nya 
+    versioner kommer att definieras av Licensgivaren. Övergång till nya 
+    versioner måste slutföras inom sex månader från meddelandet.
 
-    2. Om du väljer att inte bidra ekonomiskt, måste du offentliggöra hela applikationen, om den inkluderar verket, under denna licens eller en kompatibel öppen källkodlicens med copyleft-bestämmelser. Du måste också ge alla användare tillgång till applikationens motsvarande källkod under denna licens. "Motsvarande källkod" inkluderar all källkod som är nödvändig för att bygga, underhålla och modifiera applikationen, inklusive byggskript och installationsinstruktioner.
+## Ansvarsfullt Redovisning av Sårbarheter
 
-6. **Licensversionering och uppgraderingar:**
-    Du godkänner att vara bunden av den aktuella SOSL-versionen som specificeras av Licensgivaren. Du kommer att meddelas om nya versioner via Licensgivarens officiella kommunikationskanaler, och processen för att övergå till nya versioner kommer att detaljeras av Licensgivaren. Övergången till nya versioner måste slutföras inom sex månader efter meddelandet.
-
-## Ansvarsfull avslöjande av sårbarheter
-
-7. **Sårbarhetsrapportering:**
-    > Om du upptäcker en sårbarhet i verket:
-
-    - Snarast meddela Licensgivaren konfidentiellt, följande den process som definieras av Licensgivaren. Den typiska anmälningstiden är inom 14 dagar efter upptäckt. Anmälningarna måste inkludera en detaljerad rapport av sårbarheten.
-
-    - Ge en rimlig tidsram, vanligtvis 90 dagar, för att Licensgivaren ska åtgärda sårbarheten innan offentliggörande. Förlängningar av denna tidsram måste avtalas skriftligt.
-
-    - Avstå från att utnyttja sårbarheten på sätt som kan skada Licensgivaren, användare eller allmänheten. 
+7. **Sårbarhetsredovisning:**
+    > Om Du upptäcker en sårbarhet i Arbetet:
+    - Omgående informera Licensgivaren konfidentiellt, enligt den process 
+        som definierats av Licensgivaren. Den typiska tidsramen för meddelande är 
+        inom 14 dagar från upptäckt. Meddelanden måste inkludera en detaljerad rapport om 
+        sårbarheten.
+    - Ge en rimlig tidsram, typiskt 90 dagar, för Licensgivaren att 
+        åtgärda sårbarheten innan offentliggjörande sker. Förlängningar av 
+        denna tidsram måste godkännas skriftligen.
+    - Avstå från att utnyttja sårbarheten på sätt som kan skada 
+        Licensgivaren, användare eller allmänheten.
 
 ## Villkor och Begränsningar
 
 - **Källkod och Patchfiler:**
-    Källkod måste tillhandahållas i modifierbar form. Distribution av verket i modifierad form och patchfiler för ändringar under byggtid är tillåten. "Modifierbar form" inkluderar källkod i ett format som tillåter redigering och rekompilering, såsom textfiler eller filer som kan öppnas i standardutvecklingsmiljöer. Det måste också inkludera all nödvändig dokumentation för att förstå och bygga källkoden. Derivatverk som distribueras i objektform måste inkludera den motsvarande källkoden.
+    Källkod måste tillhandahållas i modifierbart format. Distribution av Arbetet
+    i modifierad form och patchfiler för byggtidsmodifieringar är
+    tillåten. "Modifierbart format" inkluderar källkod i ett format som möjliggör
+    redigering och omkompilering, till exempel oformaterade textfiler eller
+    filer som kan öppnas i standardutvecklingsmiljöer. Det måste även inkludera nödvändig
+    dokumentation för att förstå och bygga källkoden. Avledda verk som distribueras i 
+    objektform måste innehålla motsvarande källkod.
 
-- **Härledda verk:**
-    Modifieringar och härledda verk måste tillåtas under samma villkor som det ursprungliga verket. Erkännande av det ursprungliga verket måste inkluderas i härledda verk, klart ange källan till det ursprungliga verket, och måste följa de attributkrav som specificeras av Licensgivaren. Alla härledda verk måste licensieras under denna licens.
+- **Avledda Verk:**
+    Modifieringar och avledda verk måste tillåtas under samma villkor som
+    det ursprungliga Arbetet. Erkännande av det ursprungliga Arbetet måste inkluderas
+    i avledda verk, tydligt ange källan till det ursprungliga Arbetet,
+    och måste följa de tillskrivningskrav som specificerats av Licensgivaren.
+    Alla avledda verk måste licensieras under denna Licens.
 
 - **Varumärkesanvändning:**
-    Inget tillstånd ges för att använda Licensgivarens företagsnamn, varumärken, tjänstemärken eller produktnamn, förutom för att beskriva verkets ursprung. All annan användning kräver uttryckligt skriftligt tillstånd från Licensgivaren. Beskrivande användning måste begränsas till faktiska uttalanden om ursprunget och får inte antyda stöd.
+    Ingen tillåtelse beviljas att använda Licensgivarens handelsnamn, varumärken,
+    tjänstemärken eller produktnamn, förutom för att beskriva ursprunget till
+    Arbetet. All annan användning kräver uttryckligt skriftligt tillstånd från
+    Licensgivaren. Beskrivande användning måste begränsas till faktiska uttalanden om
+    ursprunget och får inte antyda godkännande.
 
 - **Tvistlösning:**
-    Tvister kommer att lösas enligt lagarna i den jurisdiktion där ägaren av det ursprungliga arkivet är bosatt, och i enlighet med lagarna i den jurisdiktionen. En skiljeklausul kan inkluderas för att ge en snabbare lösningsprocess, där skiljeförfarandet kommer att genomföras enligt reglerna specificerade av Licensgivaren. Skiljeförfarandet kommer att äga rum på en neutral plats som överenskommits av båda parter.
+    Tvister kommer att lösas under lagarna i den jurisdiktion där
+    ägaren av det ursprungliga förvaret är bosatt, och i enlighet med lagarna
+    i den jurisdiktionen. En skiljedomsklausul kan inkluderas för att tillhandahålla en
+    snabbare lösningsprocess, där skiljedom kommer att genomföras
+    enligt de regler som specificeras av Licensgivaren. Skiljedomen kommer att äga rum på en 
+    neutral plats som båda parter kommer överens om.
 
 - **Uppsägning:**
-    Licensen kommer automatiskt att upphöra vid en överträdelse från din sida. Härledda verk från efterlevande enheter kommer inte att få sina licenser uppsagda. Processen för att åtgärda och avhjälpa överträdelser innan uppsägning kommer att specificeras av Licensgivaren, som tillhandahåller en rimlig tidsperiod (vanligen 30 dagar) för att åtgärda överträdelsen. Om överträdelsen inte åtgärdas inom denna period, kommer uppsägningen att fortskrida.
+    Licensen kommer automatiskt att upphöra vid varje brott mot Avtalet av Dig. Avledda
+    verk från följsamma enheter kommer inte att få sina licenser uppsagda.
+    Processen för att adressera och åtgärda brott mot Avtalet innan uppsägning kommer att
+    specificeras av Licensgivaren, och tillhandahåller en rimlig period (typiskt 
+    30 dagar) för att åtgärda brottet. Om brottet inte åtgärdas inom denna
+    period, kommer uppsägning att fortsätta.
 
-## Ansvarsfriskrivning och Ansvarsbegränsning
+## Garantifriskrivning och Begränsning av Ansvar
 
-- **Ansvarsfriskrivning:**
-    Verket tillhandahålls "i befintligt skick", utan någon form av garanti, uttrycklig eller underförstådd, inklusive men inte begränsat till garantier om säljbarhet, lämplighet för ett visst syfte och icke-intrång. Licensgivaren och bidragsgivare ger inga garantier för Verkets prestanda eller lämplighet för någon specifik användning. Denna friskrivning gäller i största möjliga utsträckning som tillåts av tillämplig lag.
+- **Garantifriskrivning:**
+    Arbetet tillhandahålls "i befintligt skick," utan någon form av garanti, uttrycklig eller
+    underförstådd, inklusive men inte begränsat till garantier om säljbarhet,
+    lämplighet för ett visst syfte och icke-intrång. Licensgivaren och
+    bidragsgivarna ger ingen garanti för Arbetets prestanda eller lämplighet 
+    för något särskilt ändamål. Denna friskrivning gäller i största möjliga 
+    utsträckning som tillåts av tillämplig lag.
 
-- **Ansvarsbegränsning:**
-    Under inga omständigheter ska Licensgivaren eller bidragsgivare vara ansvariga för någon anspråk, skadestånd eller annan ansvarighet, vare sig i ett avtal, delikt eller på annat sätt, som uppstår från, ut ur eller i samband med verket eller användningen eller andra förhållanden med verket. Detta inkluderar, men är inte begränsat till, indirekta, tillfälliga, speciella, följdskador eller straffskador. Lagstadgade undantag från denna begränsning kan gälla.
+- **Begränsning av ansvar:**
+    Under inga omständigheter ska Licensgivaren eller bidragsgivarna vara ansvariga för någon krav,
+    skador eller annan ansvarighet, oavsett om det är i en avtalsrättslig handling, skadeståndsrätt eller
+    annars, som uppstår från, ur eller i samband med Arbetet eller användningen eller andra 
+    transaktioner relaterade till Arbetet. Detta inkluderar, men är inte begränsat till,
+    indirekta, tillfälliga, speciella, följd- eller straffskador. Lagstadgade undantag från denna begränsning kan gälla.
 
 ## Tolkning och Ändringar
 
 - **Tolkning:**
-    Eventuella tvetydigheter eller oförutsedda situationer kommer att hanteras enligt den allmänna avsikten med licensen. Specifika tolkningar kan utfärdas av Licensgivaren, och dessa tolkningar kommer att vara bindande. I tvister kan en neutral tredje part utses för att lösa tvetydigheter.
+    Eventuella oklarheter eller oförutsedda situationer kommer att hanteras enligt
+    den allmänna avsikten med Licensen. Specifika tolkningar kan utfärdas av
+    Licensgivaren, och dessa tolkningar kommer att vara bindande. Vid
+    tvist kan en neutral tredje parts medlare utses för att
+    lösa oklarheter.
 
 - **Ändringar:**
-    Ändringar av licensen kommer att hanteras enligt den process som specificeras av Licensgivaren. Användare kommer att meddelas om eventuella ändringar via Licensgivarens officiella kommunikationskanaler och förses med motiveringen och konsekvenserna. Användare kommer att ha möjlighet att ge feedback eller invändningar inom en specificerad period (vanligen 60 dagar). Betydande ändringar kräver majoritetens godkännande från bidragsgivare.
+    Ändringar av Licensen kommer att hanteras enligt den process
+    specificerad av Licensgivaren. Användare kommer att meddelas om eventuella ändringar
+    via Licensgivarens officiella kommunikationskanaler och tillhandahållas
+    med motiveringen och konsekvenserna. Användare kommer att ha möjlighet att
+    lämna feedback eller invändningar inom en specifik period (vanligtvis
+    60 dagar). Betydande ändringar kräver majoritetsgodkännande från
+    bidragsgivare.
 
 ## Rekommenderad Kodhuvud
 
 ```plaintext
-Copyright (c) {{year}} by {{name}}.
+Upphovsrätt (c) {{year}} av {{name}}.
 
 Denna fil är licensierad under Spyder Öppen Säkerhetslicens (SOSL) 1.0.
 Se LICENSE.md-filen för detaljer.

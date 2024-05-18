@@ -52,7 +52,7 @@ var locales = []string{
 }
 
 const defaultPrompt = `
-	translate the following %s markdown to %s and return only the translated markdown: %s
+	translate the following %s markdown to %s and return only the translated markdown, include the text in the codeblock at the bottom of the markdown as part of the translation: %s
 `
 
 //nolint:gochecknoglobals // ignore global variables
