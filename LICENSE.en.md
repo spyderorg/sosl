@@ -1,5 +1,10 @@
 # SPYDER Open Security License (SOSL) 1.0 
 
+## Translations
+
+For a complete list of translations, please see the license origin repository
+located on the SPYDER organization page on GitHub here: [SPYDER Open Security License (SOSL) 1.0](https://github.com/spyderorg/sosl).
+
 ## Definitions 
 
 - **"Artificial Intelligence System" (AI System):** 

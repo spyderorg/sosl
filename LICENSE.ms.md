@@ -1,106 +1,108 @@
-```markdown
 # Lesen Keselamatan Terbuka SPYDER (SOSL) 1.0
+
+## Terjemahan
+
+Untuk senarai lengkap terjemahan, sila lihat repositori asal lesen yang terletak di halaman organisasi SPYDER di GitHub di sini: [Lesen Keselamatan Terbuka SPYDER (SOSL) 1.0](https://github.com/spyderorg/sosl).
 
 ## Definisi
 
-- **"Sistem Kecerdasan Buatan" (AI System):**
-    Mana-mana teknologi pembelajaran mesin atau kecerdasan buatan yang menjana kod atau sumbangan dengan input manusia yang minimum. "Input manusia yang minimum" merujuk kepada penglibatan manusia yang terhad terutamanya untuk pengawasan atau kelulusan akhir. Sumbangan yang menggabungkan bahan berlesen yang sedia ada mesti mematuhi syarat-syarat lesen asal. Untuk tujuan lesen ini, "minimum" ditakrifkan sebagai kurang daripada 10% daripada usaha pembangunan keseluruhan. Sumbangan yang dijana oleh AI mesti disertakan dengan proses pendedahan dan pengesahan yang terperinci seperti yang digariskan oleh Pemberi Lesen.
+- **"Sistem Kecerdasan Buatan" (Sistem AI):**
+    Sebarang teknologi pembelajaran mesin atau kecerdasan buatan yang menghasilkan kod atau sumbangan dengan input manusia yang minimal. "Input manusia yang minimal" merujuk kepada keterlibatan manusia yang terbatas terutama untuk pengawasan atau kelulusan akhir. Sumbangan yang menggabungkan bahan berlesen sedia ada mesti mematuhi syarat lesen asal. Untuk tujuan lesen ini, "minimal" ditakrifkan sebagai kurang daripada 10% daripada usaha pembangunan keseluruhan. Sumbangan yang dijana oleh AI mesti disertai dengan proses pengungkapan dan pengesahan terperinci seperti yang digariskan oleh Pemberi Lesen.
 
 - **"Sumbangan":**
-    Mana-mana karya asli, termasuk pengubahsuaian atau penambahan kepada karya sedia ada, yang diserahkan kepada Pemberi Lesen untuk dimasukkan ke dalam Karya, oleh individu, entiti undang-undang, atau Sistem AI. Ini termasuk mana-mana bahan yang novel atau menambah nilai kepada Karya. Sumbangan mesti bersifat substantif dan tidak boleh merangkumi perubahan remeh.
+    Sebarang karya asal kepengarangan, termasuk pengubahsuaian atau penambahan kepada kerja sedia ada, yang diserahkan kepada Pemberi Lesen untuk dimasukkan dalam Kerja, oleh seorang individu, entiti perundangan, atau Sistem AI. Ini termasuk sebarang bahan yang novel atau yang menambah nilai kepada Kerja. Sumbangan mesti substantif dan tidak boleh merangkumi perubahan trivial.
 
 - **"Perusahaan":**
-    Sebuah organisasi dengan pendapatan tahunan melebihi $10 juta USD pada tahun kewangan sebelumnya atau mempunyai lebih daripada 100 pekerja. Entiti yang menggunakan struktur kompleks untuk mengelak ambang ini, seperti membahagikan kepada entiti yang lebih kecil, termasuk. Jumlah pendapatan dan bilangan pekerja akan diagregatkan untuk entiti yang berkaitan di bawah kawalan yang sama.
+    Sebuah organisasi dengan pendapatan tahunan melebihi $10 juta USD pada tahun fiskal sebelumnya atau lebih daripada 100 pekerja. Entiti yang menggunakan struktur kompleks untuk mengelakkan ambang ini, seperti membahagikan kepada entiti kecil, termasuk. Jumlah pendapatan dan bilangan pekerja akan digabungkan untuk entiti berkaitan di bawah kawalan yang sama.
 
 - **"Pembetulan Keselamatan":**
-    Mana-mana pengubahsuaian yang menangani kerentanan keselamatan, ditetapkan sebagai Pembetulan Keselamatan oleh penyerah dan diterima oleh Pemberi Lesen mengikut kriteria penerimaan yang ditetapkan dan proses seperti yang digariskan oleh Pemberi Lesen. Kriteria termasuk penerangan terperinci tentang kerentanan, penilaian impak, dan bukti pengujian yang mengesahkan pembetulan tersebut.
+    Sebarang pengubahsuaian yang menangani kerentanan keselamatan, yang ditetapkan sebagai Pembetulan Keselamatan oleh pengirim dan diterima oleh Pemberi Lesen mengikut kriteria penerimaan dan proses yang diperincikan oleh Pemberi Lesen. Kriteria termasuk deskripsi terperinci kerentanan, penilaian impak, dan bukti ujian yang mengesahkan pembetulan.
 
-- **"Sumbangan yang Disahkan":**
-    Sumbangan yang disemak dan disahkan oleh penyumbang untuk berfungsi sebagaimana yang dimaksudkan dan mematuhi Lesen ini, terutamanya jika dijana oleh Sistem AI. Ini termasuk menjalankan ujian dan memastikan ia tidak melanggar mana-mana hak pihak ketiga. Pengesahan mesti termasuk dokumentasi komprehensif tentang proses pengujian dan hasilnya.
+- **"Sumbangan Disahkan":**
+    Sumbangan yang disemak dan disahkan oleh penyumbang untuk berfungsi seperti yang diinginkan dan mematuhi Lesen ini, khususnya jika dijana oleh Sistem AI. Ini termasuk menjalankan ujian dan memastikan bahawa ia tidak melanggar sebarang hak pihak ketiga. Pengesahan mesti merangkumi dokumentasi komprehensif proses dan hasil ujian.
 
-- **"Karya":**
-    Perisian kolektif, kandungan, dan dokumentasi yang dilindungi oleh Lesen ini, termasuk semua Sumbangan yang dibuat oleh pelbagai penyumbang.
+- **"Kerja":**
+    Perisian, kandungan, dan dokumentasi kolektif yang dilindungi oleh Lesen ini, termasuk semua Sumbangan yang dibuat oleh pelbagai penyumbang.
 
-- **"Penggunaan":**
-    Sejauh mana sebuah Perusahaan menggunakan Karya, diukur dengan faktor seperti bilangan pengguna akhir, skala penggunaan, atau integrasi ke dalam produk atau perkhidmatan. Metrik spesifik akan disediakan oleh Pemberi Lesen seperti yang diperlukan dan mesti dilaporkan dengan tepat dan berkala oleh Perusahaan.
+- **"Utilisasi":**
+    Tahap di mana Perusahaan menggunakan Kerja, diukur oleh faktor-faktor seperti bilangan pengguna akhir, skala pengeluaran, atau integrasi ke dalam produk atau perkhidmatan. Metrik khusus akan disediakan oleh Pemberi Lesen mengikut keperluan dan mesti dilaporkan dengan tepat dan berkala oleh Perusahaan.
 
 - **"Anda" (atau "Anda punya"):**
-    Individu atau entiti undang-undang yang melaksanakan kebenaran yang diberikan oleh Lesen ini.
+    Seorang individu atau entiti perundangan yang menggunakan kebenaran yang diberikan oleh Lesen ini.
 
 ## Pemberian Lesen
 
-1. **Pengedaran Semula dan Penggunaan:**
-    Anda boleh memperbanyak, menyediakan karya terbitan, mempamerkan secara umum, mengedarkan, dan melaksanakan Karya dan karya terbitan dalam bentuk sumber atau objek. Keperluan atribusi mesti dipenuhi jika berkenaan, mengikut panduan yang disediakan oleh Pemberi Lesen. Atribusi mesti merangkumi pengarang asal, nama Karya, dan pautan ke repositori asal. Pengedaran karya terbitan dalam bentuk objek mesti disertakan dengan kod Sumber yang Berkaitan.
+1. **Pengedaran dan Penggunaan:**
+    Anda boleh memperbanyak, menyediakan karya derivatif, mempamerkan secara umum, mengedarkan, dan melaksanakan Kerja dan karya derivatif dalam bentuk sumber atau objek. Keperluan atribusi mesti dipenuhi di mana sesuai, mengikuti garis panduan yang ditentukan oleh Pemberi Lesen. Atribusi mesti merangkumi pengarang asal, nama Kerja, dan pautan ke repositori asal. Pengedaran karya derivatif dalam bentuk objek mesti disertai dengan kod Sumber yang Seiring.
 
 2. **Pemberian Paten:**
-    Setiap Penyumbang memberikan Anda lesen paten yang kekal, sedunia, tidak eksklusif, tiada caj, bebas royalti, tidak boleh batal untuk membuat, menggunakan, menawarkan untuk dijual, menjual, mengimport, dan sebaliknya memindahkan Karya. Konflik dengan lesen atau paten lain yang dipegang oleh penyumbang mesti diselesaikan melalui proses yang ditentukan oleh Pemberi Lesen, yang termasuk mediasi atau timbang tara.
+    Setiap Penyumbang memberikan Anda lesen paten yang kekal, seluruh dunia, tidak eksklusif, bebas-royalti, tidak boleh ditarik balik untuk membuat, menggunakan, menawarkan untuk dijual, menjual, mengimport, dan sebagainya memindahkan Kerja. Konflik dengan lesen lain atau paten yang dipegang oleh penyumbang mesti diselesaikan melalui proses yang ditentukan oleh Pemberi Lesen, yang termasuk mediasi atau arbitrasi.
 
 3. **Sumbangan Pembetulan Keselamatan:**
-    Jika Anda membuat atau mengetahui tentang Pembetulan Keselamatan, Anda mesti menyerahkannya kepada Pemberi Lesen mengikut proses yang ditetapkan, yang termasuk menyediakan dokumentasi dan kod yang terperinci. Proses mesti termasuk laporan kerentanan, langkah untuk mengulanginya, dan bukti pembetulan. Penyerahan yang dibantu oleh AI mesti merupakan Sumbangan yang Disahkan.
+    Jika Anda membuat atau menjadi sedar tentang Pembetulan Keselamatan, Anda mesti menyerahkannya kepada Pemberi Lesen mengikut proses yang ditetapkan, yang termasuk menyediakan dokumentasi dan kod terperinci. Proses ini mesti merangkumi laporan kerentanan, langkah-langkah untuk mereproduksi, dan bukti pembetulan. Penyerahan yang dibantu oleh AI mesti merupakan Sumbangan Disahkan.
 
-4. **Sumbangan yang Dihasilkan oleh AI:**
-    Sumbangan yang dijana oleh AI mesti didedahkan dan disahkan. Anda bertanggungjawab untuk kepatuhan dan ketidaklanggaran mereka terhadap hak pihak ketiga. Pengesahan mesti termasuk dokumentasi proses penjanaan AI dan langkah-langkah yang diambil untuk memastikan kepatuhan. Pertikaian mengenai kepatuhan dan pelanggaran hak pihak ketiga akan dikendalikan melalui proses yang ditetapkan oleh Pemberi Lesen, yang termasuk semakan bebas dan timbang tara. Sumbangan yang dijana oleh AI mesti bersumber terbuka di bawah Lesen ini.
+4. **Sumbangan Dijana oleh AI:**
+    Sumbangan yang dijana oleh AI mesti didedahkan dan disahkan. Anda bertanggungjawab untuk kepatuhan mereka dan ketiadaan pelanggaran terhadap hak pihak ketiga. Pengesahan mesti merangkumi dokumentasi proses penjanaan AI dan langkah-langkah yang diambil untuk memastikan kepatuhan. Pertikaian mengenai kepatuhan dan pelanggaran hak pihak ketiga akan ditangani melalui proses yang ditentukan oleh Pemberi Lesen, yang termasuk semakan bebas dan arbitrasi. Sumbangan yang dijana oleh AI mesti bersifat sumber terbuka di bawah Lesen ini.
 
 5. **Pilihan Pembiayaan atau Copyleft untuk Perusahaan:**
-    > Jika Anda adalah sebuah Perusahaan:
+    > Jika Anda adalah Perusahaan:
 
-    1. Anda boleh menyumbang secara kewangan kepada penyelenggaraan dan pembangunan Karya, dengan jumlah yang ditentukan oleh Pemberi Lesen. Jumlah sumbangan spesifik dan butiran pembayaran akan digariskan oleh Pemberi Lesen, berdasarkan faktor seperti saiz Perusahaan dan tahap penggunaan.
+    1. Anda boleh menyumbangkan kewangan untuk penyelenggaraan dan pembangunan Kerja, dengan jumlah yang ditentukan oleh Pemberi Lesen. Jumlah sumbangan khusus dan butiran pembayaran akan diperincikan oleh Pemberi Lesen, berdasarkan faktor-faktor seperti saiz Perusahaan dan tahap utilizasi.
 
-    2. Jika memilih untuk tidak menyumbang kewangan, Anda mesti melepaskan seluruh aplikasi, jika ia termasuk Karya, di bawah Lesen ini atau lesen sumber terbuka yang serasi dengan peruntukan copyleft. Anda juga mesti menyediakan semua pengguna akses kepada Sumber Berkaitan aplikasi di bawah Lesen ini. "Sumber Berkaitan" termasuk semua kod sumber yang diperlukan untuk membina, menyelenggara, dan mengubah suai aplikasi, termasuk skrip pembinaan dan arahan pemasangan.
+    2. Jika memilih untuk tidak membuat sumbangan kewangan, Anda mesti melepaskan seluruh aplikasi, jika ia termasuk Kerja, di bawah Lesen ini atau lesen sumber terbuka yang serasi dengan peruntukan copyleft. Anda juga mesti menyediakan semua pengguna akses kepada Sumber Seiring aplikasi di bawah Lesen ini. "Sumber Seiring" termasuk semua kod sumber yang diperlukan untuk membina, menyelenggara, dan mengubah suai aplikasi, termasuk skrip binaan dan arahan pemasangan.
 
-6. **Versi dan Peningkatan Lesen:**
-    Anda bersetuju untuk terikat dengan versi SOSL semasa seperti yang ditetapkan oleh Pemberi Lesen. Anda akan diberitahu tentang versi baru melalui saluran komunikasi rasmi Pemberi Lesen, dan proses untuk beralih ke versi baru akan diperincikan oleh Pemberi Lesen. Peralihan ke versi baru mesti disiapkan dalam tempoh enam bulan selepas pemberitahuan.
+6. **Versi dan Naik Taraf Lesen:**
+    Anda bersetuju untuk terikat dengan versi SOSL semasa yang ditetapkan oleh Pemberi Lesen. Anda akan diberitahu mengenai versi baru melalui saluran komunikasi rasmi Pemberi Lesen, dan proses untuk peralihan ke versi baru akan diperinci oleh Pemberi Lesen. Peralihan ke versi baru mesti diselesaikan dalam masa enam bulan dari pemberitahuan.
 
-## Pendedahan Bertanggungjawab terhadap Kerentanan
+## Pengungkapan Bertanggungjawab bagi Kerentanan
 
-7. **Pendedahan Kerentanan:**
-    > Jika Anda menjumpai Kerentanan dalam Karya:
+7. **Pengungkapan Kerentanan:**
+    > Jika Anda menemui Kerentanan dalam Kerja:
 
-    - Segera maklumkan Pemberi Lesen secara rahsia, mengikut proses yang ditentukan oleh Pemberi Lesen. Tempoh pemberitahuan biasa adalah dalam 14 hari selepas penemuan. Pemberitahuan mesti termasuk laporan terperinci tentang kerentanan.
+    - Segera maklumkan Pemberi Lesen secara rahsia, mengikut proses yang ditetapkan oleh Pemberi Lesen. Tempoh pemberitahuan biasa adalah dalam masa 14 hari dari penemuan. Pemberitahuan mesti disertakan dengan laporan terperinci mengenai kerentanan.
 
-    - Berikan tempoh yang wajar, biasanya 90 hari, untuk Pemberi Lesen menangani Kerentanan sebelum pendedahan awam. Lanjutan tempoh ini mesti dipersetujui secara bertulis.
+    - Memberikan tempoh masa yang munasabah, biasanya 90 hari, untuk Pemberi Lesen menangani Kerentanan sebelum pengungkapan awam. Pemanjangan kepada tempoh masa ini mesti dipersetujui secara bertulis.
 
-    - Menahan diri dari mengeksploitasi Kerentanan dengan cara yang boleh membahayakan Pemberi Lesen, pengguna, atau orang ramai.
+    - Menahan diri daripada mengeksploitasi Kerentanan dengan cara yang boleh merugikan Pemberi Lesen, pengguna, atau orang awam.
 
 ## Syarat dan Had
 
 - **Kod Sumber dan Fail Tampalan:**
-    Kod sumber mesti disediakan dalam bentuk yang boleh diubah suai. Pengedaran Karya dalam bentuk yang diubah suai dan fail tampalan untuk pengubahsuaian masa pembinaan dibenarkan. "Bentuk boleh diubah suai" termasuk kod sumber dalam format yang membolehkan penyuntingan dan penjalinan semula, seperti fail teks biasa atau fail yang boleh dibuka dalam persekitaran pembangunan standard. Ia juga mesti termasuk sebarang dokumentasi yang diperlukan untuk memahami dan membina kod sumber. Karya terbitan yang diedarkan dalam bentuk objek mesti termasuk kod Sumber Berkaitan.
+    Kod sumber mesti disediakan dalam bentuk yang boleh diubah suai. Pengedaran Kerja dalam bentuk yang diubah suai dan fail tampalan untuk pengubahsuaian masa binaan dibenarkan. "Bentuk yang boleh diubah suai" termasuk kod sumber dalam format yang memungkinkan pengeditan dan penambahan semula, seperti fail teks biasa atau fail yang boleh dibuka dalam persekitaran pembangunan standard. Ia juga mesti merangkumi sebarang dokumentasi yang diperlukan untuk memahami dan membina kod sumber. Karya derivatif yang diedarkan dalam bentuk objek mesti disertakan dengan kod Sumber Seiring.
 
-- **Karya Terbitan:**
-    Pengubahsuaian dan karya terbitan mesti dibenarkan di bawah syarat yang sama seperti Karya asal. Pengakuan Karya asal mesti dimasukkan dalam karya terbitan, dengan jelas menunjukkan sumber Karya asal, dan mesti mengikuti syarat-syarat atribusi yang ditetapkan oleh Pemberi Lesen. Semua karya terbitan mesti dilesenkan di bawah Lesen ini.
+- **Kerja Derivatif:**
+    Pengubahsuaian dan karya derivatif mesti dibenarkan di bawah syarat yang sama dengan Kerja asal. Pengakuan terhadap Kerja asal mesti dimasukkan dalam karya derivatif, menunjukkan dengan jelas sumber Kerja asal, dan mesti mengikuti keperluan atribusi yang ditetapkan oleh Pemberi Lesen. Semua karya derivatif mesti dilesenkan di bawah Lesen ini.
 
 - **Penggunaan Tanda Dagangan:**
-    Tiada kebenaran diberikan untuk menggunakan nama perdagangan, tanda dagangan, tanda perkhidmatan, atau nama produk milik Pemberi Lesen, kecuali untuk menggambarkan asal-usul Karya. Sebarang penggunaan lain memerlukan kebenaran bertulis daripada Pemberi Lesen. Penggunaan deskriptif mesti terhad kepada kenyataan faktual tentang asal-usul dan tidak boleh membayangkan sokongan.
+    Tiada kebenaran diberikan untuk menggunakan nama dagang, tanda dagangan, tanda perkhidmatan, atau nama produk Pemberi Lesen, kecuali untuk menggambarkan asal Kerja. Sebarang penggunaan lain memerlukan kebenaran bertulis dari Pemberi Lesen. Penggunaan deskriptif mesti terhad kepada kenyataan fakta mengenai asal dan tidak boleh menyiratkan sokongan.
 
 - **Penyelesaian Pertikaian:**
-    Pertikaian akan diselesaikan di bawah undang-undang bidang kuasa di mana pemilik repositori asal menetap, dan mengikut undang-undang bidang kuasa tersebut. Klausa timbang tara boleh dimasukkan untuk menyediakan proses penyelesaian lebih pantas, di mana timbang tara akan dijalankan di bawah peraturan yang ditetapkan oleh Pemberi Lesen. Timbang tara akan berlangsung di lokasi neutral yang dipersetujui oleh kedua-dua pihak.
+    Pertikaian akan diselesaikan di bawah undang-undang bidang kuasa di mana pemilik repositori asal berada, dan mengikut undang-undang bidang kuasa itu. Klausa arbitrasi boleh disertakan untuk menyediakan proses penyelesaian yang lebih cepat, di mana arbitrasi akan dijalankan di bawah peraturan yang ditetapkan oleh Pemberi Lesen. Arbitrasi akan dilakukan di lokasi neutral yang dipersetujui oleh kedua-dua pihak.
 
 - **Penamatan:**
-    Lesen akan berakhir secara automatik selepas sebarang pelanggaran oleh Anda. Karya terbitan daripada entiti yang mematuhi tidak akan mempunyai lesen mereka ditamatkan. Proses untuk menangani dan membetulkan pelanggaran sebelum penamatan akan ditetapkan oleh Pemberi Lesen, menyediakan tempoh yang munasabah (biasanya 30 hari) untuk membetulkan pelanggaran tersebut. Jika pelanggaran tidak dibetulkan dalam tempoh ini, penamatan akan diteruskan.
+    Lesen akan ditamatkan secara automatik apabila sebarang pelanggaran oleh Anda. Karya derivatif dari entiti yang patuh tidak akan mempunyai lesen mereka ditamatkan. Proses untuk menangani dan memperbaiki pelanggaran sebelum penamatan akan diperincikan oleh Pemberi Lesen, menyediakan tempoh yang munasabah (biasanya 30 hari) untuk membaiki pelanggaran. Jika pelanggaran tidak diperbaiki dalam tempoh ini, penamatan akan diteruskan.
 
 ## Penafian Jaminan dan Had Tanggungjawab
 
 - **Penafian Jaminan:**
-    Karya disediakan "sebagaimana adanya," tanpa sebarang jenis jaminan, samada nyata atau tersirat, termasuk tetapi tidak terhad kepada jaminan kebolehdagangan, kesesuaian untuk tujuan tertentu, dan ketidaklanggaran. Pemberi Lesen dan penyumbang tidak memberikan jaminan terhadap prestasi atau kesesuaian Karya untuk sebarang penggunaan khusus. Penafian ini terpakai sepenuhnya mengikut undang-undang yang terpakai.
+    Kerja disediakan "sebagaimana adanya," tanpa sebarang jaminan, sama ada tersirat atau nyata, termasuk tetapi tidak terhad kepada jaminan kebolehdagangan, kesesuaian untuk tujuan tertentu, dan ketiadaan pelanggaran. Pemberi Lesen dan penyumbang tidak membuat sebarang jaminan mengenai prestasi atau kesesuaian Kerja untuk sebarang penggunaan khusus. Penafian ini terpakai sejauh mana yang dibenarkan oleh undang-undang yang berkenaan.
 
 - **Had Tanggungjawab:**
-    Dalam apa jua keadaan, Pemberi Lesen atau penyumbang tidak akan bertanggungjawab terhadap sebarang tuntutan, kerosakan, atau liabiliti lain, samada dalam tindakan kontrak, tort, atau sebaliknya, yang timbul daripada, atau berkaitan dengan Karya atau penggunaan atau urusan lain dalam Karya. Ini termasuk, tetapi tidak terhad kepada, kerosakan tidak langsung, insidental, khas, berbangkit, atau punitif. Pengecualian berkanun terhadap had ini mungkin terpakai.
+    Dalam apa jua keadaan, Pemberi Lesen atau penyumbang tidak akan bertanggungjawab atas sebarang tuntutan, kerosakan, atau tanggungan lain, sama ada dalam tindakan kontrak, tort, atau sebaliknya, yang timbul dari, keluar dari, atau berkaitan dengan Kerja atau penggunaan atau urusan lain dalam Kerja. Ini termasuk, tetapi tidak terhad kepada, kerosakan tidak langsung, insidental, khas, berbangkit, atau punitif. Pengecualian berkanun terhadap had ini mungkin terpakai.
 
-## Tafsiran dan Pindaan
+## Penafsiran dan Pindaan
 
-- **Tafsiran:**
-    Sebarang kekaburan atau situasi yang tidak dijangka akan ditangani mengikut niat umum Lesen ini. Tafsiran khusus boleh dikeluarkan oleh Pemberi Lesen, dan tafsiran ini akan mengikat. Dalam kes pertikaian, seorang mediator pihak ketiga yang neutral boleh dilantik untuk menyelesaikan kekaburan.
+- **Penafsiran:**
+    Sebarang kekaburan atau situasi yang tidak dijangka akan ditangani mengikut niat umum Lesen. Penafsiran khusus mungkin dikeluarkan oleh Pemberi Lesen, dan penafsiran ini akan mengikat. Dalam kes pertikaian, seorang mediator pihak ketiga yang neutral mungkin dilantik untuk menyelesaikan kekaburan.
 
 - **Pindaan:**
-    Perubahan kepada Lesen akan dikendalikan mengikut proses yang ditentukan oleh Pemberi Lesen. Pengguna akan diberitahu tentang sebarang pindaan melalui saluran komunikasi rasmi Pemberi Lesen dan diberikan rasional dan implikasi. Pengguna akan mempunyai peluang untuk memberikan maklum balas atau bantahan dalam tempoh yang ditetapkan (biasanya 60 hari). Pindaan yang signifikan memerlukan kelulusan majoriti daripada penyumbang.
+    Perubahan kepada Lesen akan ditangani mengikut proses yang ditetapkan oleh Pemberi Lesen. Pengguna akan diberitahu mengenai sebarang pindaan melalui saluran komunikasi rasmi Pemberi Lesen dan diberikan alasan dan implikasi. Pengguna akan mempunyai peluang untuk memberikan maklum balas atau bantahan dalam tempoh yang ditentukan (biasanya 60 hari). Pindaan yang signifikan memerlukan kelulusan majoriti dari penyumbang.
 
-## Tajuk Kode yang Disarankan
+## Header Kod yang Disyorkan
 
 ```plaintext
 Hak Cipta (c) {{tahun}} oleh {{nama}}.
 
 Fail ini dilesenkan di bawah Lesen Keselamatan Terbuka Spyder (SOSL) 1.0.
 Lihat fail LICENSE.md untuk butiran.
-```
 ```

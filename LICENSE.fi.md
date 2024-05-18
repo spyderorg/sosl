@@ -1,113 +1,107 @@
-```markdown
-# SPYDER Open Security License (SOSL) 1.0
+# SPYDER Avoimen Turvallisuuden Lisenssi (SOSL) 1.0
+
+## Käännökset
+
+Täydellisen listan käännöksistä löydät lisenssin alkuperäisestä tietovarastosta, joka sijaitsee SPYDER-organisaatiosivulla GitHubissa täällä: [SPYDER Open Security License (SOSL) 1.0](https://github.com/spyderorg/sosl).
 
 ## Määritelmät
 
-- **"Tekoälyjärjestelmä" (AI-järjestelmä):**
-    Kaikki koneoppimiseen tai tekoälyyn perustuva tekniikka, joka tuottaa
-    koodia tai kontribuutioita minimaalisella suoralla ihmisen panoksella. "Minimalinen
-    suora ihmisen panos" viittaa rajalliseen ihmisen osallistumiseen, joka on pääasiassa valvontaa
-    tai lopullista hyväksyntää varten. Kontribuutiot, jotka sisältävät olemassa olevaa lisensoitua materiaalia,
-    on noudatettava alkuperäisiä lisenssiehtoja. Tässä 
-    lisenssissä "minimalinen" määritellään olevan alle 10 % koko kehitystyöstä. Tekoälyn tuottamien kontribuutioiden mukana tulee olla yksityiskohtainen
-    ilmoitus- ja varmennusprosessi, jonka lisensoija on määrittänyt.
+- **"Tekoälyjärjestelmä" (AI System):**
+  Mikä tahansa koneoppimisen tai tekoälyn tekniikka, joka tuottaa koodia tai lisäyksiä vähäisellä suoralla ihmisen syötteellä. "Vähäinen suora ihmisen syöte" tarkoittaa rajattua ihmisen osallistumista lähinnä valvonnan tai lopullisen hyväksynnän osalta. Ala lisäykset, jotka sisältävät olemassa olevaa lisensoitua materiaalia, tulee olla alkuperäisten lisenssiehtojen mukaisia. Tässä lisenssissä "vähäinen" määritellään olevan vähemmän kuin 10% kokonaiskehitystyöstä. Tekoälyn tuottamien lisäysten mukana on toimitettava yksityiskohtainen ilmoitus- ja vahvistusprosessi, kuten Lisenssinantaja on määritellyt.
 
-- **"Kontribuutio":**
-    Kaikki alkuperäiset tekijänoikeuden alaiset teokset, mukaan lukien muokkaukset tai lisäykset
-    olemassa olevaan teokseen, jotka lähetetään lisenssinhaltijalle työn sisällyttämistä varten yksilöltä, oikeushenkilöltä tai AI-järjestelmältä. Tämä sisältää materiaalin, joka on uutta tai joka lisää arvoa teokseen. Kontribuutioiden tulee olla olennaisia eikä niihin saa sisältyä vähäpätöisiä muutoksia.
+- **"Lisäys" (Contribution):**
+  Mikä tahansa alkuperäinen tekijänoikeudellinen työ, mukaan lukien olemassa olevan työn muokkaukset tai lisäykset, joka toimitetaan Lisenssinantajalle sisällytettäväksi Työhön yksilön, oikeushenkilön tai Tekoälyjärjestelmän kautta. Tämä sisältää kaiken materiaalin, joka on uutta tai joka tuo lisäarvoa Työlle. Lisäysten tulee olla merkittäviä eikä niihin saa sisältyä vähäisiä muutoksia.
 
-- **"Yritys":**
-    Organisaatio, jonka vuotuinen liikevaihto ylittää 10 miljoonaa USD edellisellä tilikaudella tai jolla on yli 100 työntekijää. Monimutkaisia rakenteita käyttävät tahot tämän rajan välttämiseksi, kuten jakautuminen pienempiin yksiköihin, sisältyvät mukaan. Kokonaisliikevaihto ja työntekijämäärä lasketaan yhteen yhteisen määräysvallan alaisten tahojen osalta.
+- **"Yritys" (Enterprise):**
+  Organisaatio, jonka vuotuinen liikevaihto ylittää 10 miljoonaa USD edellisen tilikauden aikana tai jolla on yli 100 työntekijää. Yksiköitä, jotka käyttävät monimutkaisia rakenteita ohittaakseen tämän rajan, kuten jakautumalla pienempiin yksiköihin, pidetään sisältyvinä. Kokonaisliikevaihto ja työntekijämäärä yhdistetään yhteisessä hallinnassa olevien yksiköiden välillä.
 
-- **"Turvapäivitys":**
-    Kaikki muutokset, jotka korjaavat tietoturva-aukkoja ja jotka tekijä on nimennyt turvapäivitykseksi ja jotka lisenssinhaltija hyväksyy määriteltyjen hyväksymiskriteerien ja -prosessin mukaisesti. Kriteerit sisältävät yksityiskohtaisen kuvauksen haavoittuvuudesta, vaikutusarvioinnin ja testausnäytöt, jotka vahvistavat korjauksen.
+- **"Turvallisuuspäivitys" (Security Fix):**
+  Mikä tahansa muokkaus, joka käsittelee turvallisuusaukkoa, merkittynä Turvallisuuspäivitykseksi lähettäjän toimesta ja hyväksyttynä Lisenssinantajan toimesta määriteltyjen hyväksymiskriteerien ja -prosessin mukaisesti. Kriteerit sisältävät yksityiskohtaisen kuvauksen haavoittuvuudesta, vaikutusarvioinnin ja testitodisteet, jotka vahvistavat korjauksen.
 
-- **"Varmennettu kontribuutio":**
-    Kontribuutio, jonka tekijä on tarkistanut ja todennut toimivaksi tarkoitetulla tavalla ja että se noudattaa tätä lisenssiä, erityisesti jos se on AI-järjestelmän tuottama. Tämä sisältää testien suorittamisen ja varmistamisen, ettei se loukkaa kolmannen osapuolen oikeuksia. Varmennuksessa tulee olla kattavat dokumentoinnit testausprosessista ja tuloksista.
+- **"Vahvistettu lisäys" (Verified Contribution):**
+  Lisäys, jonka tekijä on tarkastanut ja varmistanut toimivan tarkoitetulla tavalla ja olevan tämän Lisenssin mukainen, erityisesti jos sen on luonut Tekoälyjärjestelmä. Tämä sisältää testien suorittamisen ja varmistamisen siitä, ettei se loukkaa kolmannen osapuolen oikeuksia. Varmistusprosessiin on sisällytettävä perusteellinen dokumentointi testi-prosessista ja tuloksista.
 
-- **"Teos":**
-    Kollektiivinen ohjelmisto, sisältö ja dokumentaatio, jota tämä lisenssi kattaa, mukaan lukien kaikki eri tekijöiden tekemät kontribuutiot.
+- **"Työ" (Work):**
+  Yhteinen ohjelmisto, sisältö ja dokumentaatio, jotka kuuluvat tähän Lisenssiin, mukaan lukien kaikkien tekijöiden tekemät Lisäykset.
 
-- **"Hyödyntäminen":**
-    Laajuus, jolla yritys käyttää teosta, mitattuna esimerkiksi loppukäyttäjien lukumäärän, käyttöönoton laajuuden tai tuotteisiin tai palveluihin integroinnin perusteella. Lisenssinantaja antaa tarvittaessa tarkat mittarit ja yrityksen on raportoitava käyttö tarkasti ja säännöllisesti.
+- **"Hyödyntäminen" (Utilization):**
+  Laajuus, johon Yritys käyttää Työtä, mitattuna tekijöillä kuten loppukäyttäjien määrä, käyttöönoton laajuus tai integrointi tuotteisiin tai palveluihin. Lisenssinantaja määrittelee tarvittavat erityismittarit, ja Yrityksen on raportoitava ne tarkasti ja säännöllisesti.
 
 - **"Sinä" (tai "Sinun"):**
-    Yksilö tai oikeushenkilö, joka käyttää tämän lisenssin myöntämiä oikeuksia.
+  Yksilö tai oikeushenkilö, joka käyttää tässä Lisenssissä myönnettyjä oikeuksia.
 
-## Lisenssin myöntämät oikeudet
+## Lisenssioikeudet
 
-1. **Jälleenjakelu ja käyttö:**
-    Voit kopioida, valmistaa johdannaisteoksia, julkisesti näyttää, jakaa ja esittää teosta ja johdannaisteoksia lähde- tai objektimuodossa. Tekijänoikeusilmoitusten tulee täyttyä soveltuvin osin lisenssinhaltijan ohjeiden mukaisesti. Tekijänoikeusilmoituksessa on mainittava alkuperäinen tekijä(t), teoksen nimi ja linkki alkuperäiseen lähteeseen. Johdannaisteosten jakelu objektimuodossa on tehtävä yhdessä vastaavan lähdekoodin kanssa.
+1. **Jakelu ja Käyttö:**
+   Sinulla on oikeus jäljentää, valmistella johdannaisteoksia, julkisesti näyttää, jakaa ja esittää Työtä ja johdannaisteoksia lähde- tai kohdemuodossa. Annosteluun liittyvät vaatimukset on täytettävä siltä osin kuin sovellettavissa, Lisenssinantajan ohjeiden mukaisesti. Annosteluihin on sisällyttävä alkuperäiset tekijät, Työn nimi ja linkki alkuperäiseen tietovarastoon. Johdannaisteosten jakelu kohdemuodossa on liitettävä vastaava lähdekoodi.
 
-2. **Patenttilisenssi:**
-    Jokainen kontribuuttori myöntää sinulle ikuisen, maailmanlaajuisen, ei-yksinomaisen, maksuttoman, rojalti-vapaan, peruuttamattoman patenttilisenssin valmistaaksesi, käyttääksesi, tarjotaksesi myyntiin, myydäksesi, tuodaksesi ja muulla tavalla siirtääksesi teoksen. Konfliktit muiden lisenssien tai kontribuuttorien omistamien patenttien kanssa on ratkaistava lisensoijan määrittämällä tavalla, joka sisältää sovittelun tai välimiesmenettelyn.
+2. **Patenttilupa:**
+   Kukin Tekijä myöntää Sinulle ikuisen, maailmanlaajuisen, ei-yksinomaisen, ilmaiseksi, rojaltivapaan, peruuttamattoman patenttilisenssin valmistaa, käyttää, tarjota myyntiin, myydä, tuoda maahan ja muuten siirtää Työtä. Konfliktit muiden lisenssien tai tekijöiden hallussa olevien patenttien kanssa on ratkaistava Lisenssinantajan määrittämän prosessin kautta, joka sisältää sovittelun tai välimiesmenettelyn.
 
-3. **Turvapäivitysten kontribuutio:**
-    Jos teet tai tulet tietoiseksi turvapäivityksestä, sinun on toimitettava se lisensoijalle määritellyn prosessin mukaisesti, joka sisältää yksityiskohtaisen dokumentoinnin ja koodin. Prosessiin on kuuluttava haavoittuvuusraportti, toistamisen vaiheet ja todiste korjauksesta. Tekoälyn avustamien lähetyksien on oltava varmennettuja kontribuutioita.
+3. **Turvallisuuspäivitysten Lisäys:**
+   Jos teet tai tunnet Turvallisuuspäivityksen, sinun on toimitettava se Lisenssinantajalle määritetyn prosessin mukaisesti, joka sisältää yksityiskohtaisen dokumentoinnin ja koodin. Prosessin on sisällettävä haavoittuvuusraportti, toistamisen vaiheet ja todiste korjauksesta. Tekoälyn avustamat lähetykset on oltava Vahvistettuja Lisäyksiä.
 
-4. **Tekoälyn tuottamat kontribuutiot:**
-    Tekoälyn tuottamat kontribuutiot on ilmoitettava ja varmennettava. Olet vastuussa niiden noudattamisesta ja kolmannen osapuolen oikeuksien rikkomattomuudesta. Varmennus sisältää dokumentoinnin tekoälytuotantoprosessista ja toimista, joilla varmistetaan noudattaminen. Kiistat noudattamisesta ja kolmannen osapuolen oikeuksien rikkomisesta käsitellään lisenssinhaltijan määrittämän prosessin mukaisesti, joka sisältää riippumattoman tutkinnan ja välimiesmenettelyn. Tekoälyn tuottamat kontribuutiot on avoinkoodistettava tämän lisenssin alla.
+4. **Tekoälyn Tuottamat Lisäykset:**
+   Tekoälyn tuottamat Lisäykset on ilmoitettava ja vahvistettava. Olet vastuussa niiden vaatimustenmukaisuudesta ja kolmannen osapuolen oikeuksien rikkomattomuudesta. Varmistusprosessiin on sisällytettävä dokumentointi tekoälyn tuotantoprosessista ja varmennustoimenpiteistä, joilla vaatimustenmukaisuus varmistetaan. Ristiriidat vaatimustenmukaisuudesta ja kolmannen osapuolen oikeuksien loukkaamisesta käsitellään Lisenssinantajan määrittämän prosessin kautta, joka sisältää riippumattoman tarkastelun ja välimiesmenettelyn. Tekoälyn tuottamat lisäykset on julkaistava avoimena lähdekoodina tämän Lisenssin nojalla.
 
-5. **Rahoitus- tai copyleft-vaihtoehto yrityksille:**
-    > Jos olet yritys:
+5. **Rahoitus- tai Copyleft-vaihtoehto Yrityksille:**
+    > Jos olet Yritys:
 
-    1. Voit osallistua taloudellisesti teoksen ylläpitoon ja kehittämiseen, määrät, jotka lisensoija määrittää. Tarkat maksusummat ja maksutiedot annetaan lisenssinhaltijan toimesta perustuen yrityksen kokoon ja käyttötasoon.
+    1. Voit myötävaikuttaa taloudellisesti Työn ylläpitoon ja kehittämiseen määrillä, jotka Lisenssinantaja on määritellyt. Erityiset myötäpanomäärät ja maksutiedot Lisenssinantaja määrittelee ottaen huomioon Yrityksen koko ja käyttöaste.
 
-    2. Jos et osallistu taloudellisesti, sinun on julkaistava koko sovellus, jos se sisältää teoksen, tämän lisenssin tai yhteensopivan avointa lähdekoodia sisältävän copyleft-lisenssin alaisena. Sinun on myös annettava kaikille käyttäjille pääsy sovelluksen vastaavaan lähdekoodiin tämän lisenssin nojalla. "Vastaava lähdekoodi" sisältää kaiken lähdekoodin, joka tarvitaan sovelluksen rakentamiseen, ylläpitoon ja muokkaamiseen, mukaan lukien rakennuskomentosarjat ja asennusohjeet.
+    2. Jos päätät olla tekemättä taloudellista myötäpanosta, sinun on julkaistava koko sovellus, jos se sisältää Työn, tämän Lisenssin tai yhteensopivan avoimen lähdekoodin lisenssin copyleft-ehdoin. Sinun on myös tarjottava kaikille käyttäjille pääsy sovelluksen vastaavaan lähdekoodiin tämän Lisenssin mukaisesti. "Vastaava lähdekoodi" sisältää kaiken lähdekoodin, joka on tarpeen sovelluksen rakentamiseen, ylläpitämiseen ja muokkaamiseen, mukaan lukien rakentamisskriptit ja asennusohjeet.
 
-6. **Lisenssiversiot ja -päivitykset:**
-    Sitoudut noudattamaan lisenssinhaltijan määrittämää nykyistä SOSL-versiota. Sinulle ilmoitetaan uusista versioista lisenssinhaltijan virallisten viestintäkanavien kautta, ja siirtymisprosessista uusiin versioihin annetaan yksityiskohdat lisenssinhaltijan toimesta. Siirtyminen uusiin versioihin on suoritettava kuuden kuukauden kuluessa ilmoituksesta.
+6. **Lisenssiversiointi ja Päivitykset:**
+   Sitoudut olemaan nykyisen SOSL-version alainen, kuten Lisenssinantaja on määritellyt. Saat ilmoituksen uusista versioista Lisenssinantajan virallisten viestintäkanavien kautta, ja siirtymisprosessin uusiin versioihin Lisenssinantaja määrittelee. Siirtyminen uusiin versioihin on tehtävä kuuden kuukauden kuluessa ilmoituksesta.
 
-## Haavoittuvuuksien vastuullinen ilmoittaminen
+## Haavoittuvuuksien Vastuullinen Ilmoittaminen
 
-7. **Haavoittuvuuden ilmoittaminen:**
-    > Jos löydät haavoittuvuuden teoksesta:
+7. **Haavoittuvuuksien Ilmoittaminen:**
+    > Jos löydät haavoittuvuuden Työstä:
 
-    - Ilmoita siitä pikaisesti lisenssinhaltijalle luottamuksellisesti lisenssinhaltijan määrittämän prosessin mukaisesti. Tyypillinen ilmoitusaika on 14 päivän kuluessa löydöstä. Ilmoitusten tulee sisältää yksityiskohtainen raportti haavoittuvuudesta.
+    - Ilmoita siitä nopeasti Lisenssinantajalle luottamuksellisesti, noudattaen Lisenssinantajan määrittämää prosessia. Tyypillinen ilmoitusaika on 14 päivää löydöksestä. Ilmoitusten on sisällettävä yksityiskohtainen raportti haavoittuvuudesta.
 
-    - Anna lisenssinhaltijalle kohtuullinen aika, tyypillisesti 90 päivää, haavoittuvuuden korjaamiseksi ennen julkista ilmoitusta. Tämän ajan pidentämisestä on sovittava kirjallisesti.
+    - Anna kohtuullinen aika, tyypillisesti 90 päivää, Lisenssinantajalle haavoittuvuuden käsittelemiseksi ennen julkista paljastamista. Tämän ajan pidennykset on sovittava kirjallisesti.
 
-    - Älä hyödynnä haavoittuvuutta tavoilla, jotka voisivat vahingoittaa lisenssinhaltijaa, käyttäjiä tai yleisöä.
+    - Pidättäydy käyttämästä haavoittuvuutta tavoilla, jotka voisivat vahingoittaa Lisenssinantajaa, käyttäjiä tai yleisöä.
 
-## Ehdot ja rajoitukset
+## Ehdot ja Rajoitukset
 
-- **Lähdekoodi ja korjaustiedostot:**
-    Lähdekoodi on toimitettava muokattavassa muodossa. Teoksen jakelu muokatussa muodossa ja korjaustiedostot rakennusaikaisiin muutoksiin on sallittua. "Muokattavassa muodossa" sisältää lähdekoodin muodossa, joka mahdollistaa muokkauksen ja uudelleenkompilaation, kuten yksinkertaiset tekstitiedostot tai tiedostot, joita voi avata standardikehitysympäristöissä. Sen on myös sisällettävä kaikki tarvittava dokumentaatio lähdekoodin ymmärtämiseksi ja rakentamiseksi. Johdannaisteosten jakelu objektimuodossa on tehtävä yhdessä vastaavan lähdekoodin kanssa.
+- **Lähdekoodi ja Paikkatiedostot:**
+  Lähdekoodi on toimitettava muokattavassa muodossa. Muokatussa muodossa olevan Työn jakelu ja paikkatiedostot kääntöaikaisiin muokkauksiin on sallittua. "Muokattava muoto" tarkoittaa lähdekoodia muodossa, joka mahdollistaa sen muokkaamisen ja uudelleenkääntämisen, kuten tekstitiedostot tai tiedostot, jotka voi avata tavanomaisissa kehitysympäristöissä. Se on myös sisällettävä kaikki tarvittavat dokumentaatiot lähdekoodin ymmärtämiseksi ja rakentamiseksi. Johdannaistyöt, jotka jaetaan kohdemuodossa, on liitettävä vastaava lähdekoodi.
 
-- **Johdetut työt:**
-    Muutoksia ja johdettuja teoksia on sallittava samoilla ehdoilla kuin alkuperäistä teosta. Alkuperäisen teoksen tunnustaminen on sisällytettävä johdettuihin töihin, selvästi osoittaen alkuperäisen teoksen lähde, ja sen on noudatettava lisenssinhaltijan määrittelemiä tekijänoikeusvaatimuksia. Kaikki johdetut teokset on lisensoitava tämän lisenssin alaisina.
+- **Johdannaisteokset:**
+  Muutokset ja johdannaisteokset on sallittava samoilla ehdoilla kuin alkuperäinen Työ. Alkuperäisen Työn tunnustus on sisällytettävä johdannaisteoksissa, selkeästi merkittynä alkuperäisen Työn lähde, ja sen on noudatettava Lisenssinantajan määräämiä tunnustusehtoja. Kaikki johdannaisteokset on lisensoitava tällä Lisenssillä.
 
-- **Tavaramerkkien käyttö:**
-    Minkään lisenssinhaltijan tuotenimien, tavaramerkkien, palvelumerkkien tai tuotenimien käyttöön ei myönnetä lupaa, paitsi teoksen alkuperän kuvaamiseen. Kaikki muu käyttö edellyttää nimenomaista kirjallista lupaa lisenssinhaltijalta. Kuvailevan käytön on rajoituttava tosiasiallisiin lausuntoihin alkuperästä eikä se saa vihjata hyväksyntää.
+- **Tavaramerkin Käyttö:**
+  Ei anneta lupaa käyttää Lisenssinantajan kauppanimiä, tavaramerkkejä, palvelumerkkejä tai tuotenimiä, paitsi Työn alkuperän kuvaamiseen. Muu käyttö vaatii Lisenssinantajan nimenomaisen kirjallisen luvan. Kuvaileva käyttö on rajoitettava tosiasiallisiin väitteisiin alkuperästä ja ei saa vihjata hyväksyntää.
 
-- **Riitojen ratkaisu:**
-    Riidat ratkaistaan sen lainkäyttöalueen lakien mukaisesti, jossa alkuperäisen arkiston omistaja asuu, ja kyseisen lainkäyttöalueen lakien mukaisesti. Välimiesmenettelylauseke voidaan sisällyttää tarjoamaan nopeampi ratkaisuprosessi, jolloin välimiesmenettely suoritetaan lisenssinhaltijan määrittämien sääntöjen mukaisesti. Välimiesmenettely tapahtuu neutraalilla paikalla, jonka molemmat osapuolet hyväksyvät.
+- **Riitojen Ratkaisu:**
+  Riidat ratkaistaan sen oikeusalueen lakien mukaisesti, jossa alkuperäisen tietovaraston omistaja asuu, ja kyseisen oikeusalueen lakien mukaisesti. Sisällytettävä välimieslauseke voi tarjota nopeamman ratkaisuprosessin, jossa välimiesmenettely suoritetaan Lisenssinantajan määrittämien sääntöjen mukaisesti. Välimiesmenettely suoritetaan neutraalissa paikassa, josta molemmat osapuolet sopivat.
 
 - **Päättyminen:**
-    Lisenssi päättyy automaattisesti sinun rikkomuksestasi johtuen. Sääntöjen mukaisista yksiköistä johdettujen teosten lisenssejä ei päätetä. Prosessi rikkomusten käsittelemiseksi ja korjaamiseksi ennen lisenssin päättymistä määritellään lisensoijan toimesta, jolloin annetaan kohtuullinen aika (tyypillisesti 30 päivää) rikkomuksen korjaamiseksi. Jos rikkomusta ei korjata tänä aikana, päättäminen jatkuu.
+  Lisenssi päättyy automaattisesti, jos Sinä rikot sitä. Yhteensopivien tahojen johdannaistyöt säilyttävät lisenssinsä voimassaolon. Prosessi rikkomusten käsittelemiseksi ja korjaamiseksi ennen päättymistä on määritelty Lisenssinantajan toimesta, tarjoten kohtuullisen ajan (tyypillisesti 30 päivää) rikkomuksen korjaamiseksi. Jos rikkomusta ei korjata tämän ajan kuluessa, päättyminen jatkuu.
 
-## Vastuuvapauslauseke ja vastuunrajoitus
+## Vakuutuksen Vastuuvapauslauseke ja Vastuun Rajoitus
 
-- **Vastuuvapauslauseke:**
-    Teos toimitetaan "sellaisena kuin se on" ilman minkäänlaista takuuta, ilmaistua tai oletettua, mukaan lukien mutta ei rajoittuen takuisiin myyntikelpoisuudesta, soveltuvuudesta tiettyyn tarkoitukseen ja loukkaamattomuudesta. Lisenssinhaltija ja kontribuuttorit eivät takaa teoksen suorituskykyä tai soveltuvuutta mihinkään erityiseen käyttöön. Tämä vastuuvapauslauseke koskee lain sallimassa enimmäismäärässä.
+- **Vakuutuksen Vastuuvapauslauseke:**
+   Työ toimitetaan "sellaisena kuin se on," ilman minkäänlaista vakuutusta, nimenomaista tai epäsuoraa, mukaan lukien mutta ei rajoittuen takuihin kaupallisuudesta, sopivuudesta tiettyyn tarkoitukseen ja rikkomattomuudesta. Lisenssinantaja ja tekijät eivät anna takeita Työn suorituskyvystä tai soveltuvuudesta mihinkään tiettyyn käyttöön. Tämä vastuuvapauslauseke pätee laajimmassa lain sallimassa määrin.
 
-- **Vastuunrajoitus:**
-    Lisenssinhaltija tai kontribuuttorit eivät missään tapauksessa ole vastuussa mistään kanteista, vahingoista tai muista vastuista, olipa kyseessä sopimus-, vahingonkorvaus- tai muu toiminta, joka johtuu tai liittyy teokseen tai sen käyttöön tai muihin teokseen liittyviin toimiin. Tämä sisältää, mutta ei rajoitu, välillisiin, satunnaisiin, erityisiin, seuraamuksellisiin tai rangaistusluonteisiin vahinkoihin. Lain sallimat poikkeukset tähän rajoitukseen voivat koskea.
+- **Vastuun Rajoitus:**
+   Missään tapauksessa Lisenssinantaja tai tekijät eivät ole vastuussa mistään vaatimuksista, vahingoista tai muusta vastuusta, olipa kyseessä sopimus, vahingonkorvaus tai jokin muu peruste, joka johtuu Työstä tai Työn käytöstä tai muusta tekemisestä Työn kanssa. Tämä sisältää, mutta ei ole rajoitettu, epäsuorat, satunnaiset, erityiset, seurannais- tai rankaisevat vahingot. Lailliset poikkeukset tähän rajoitukseen voivat päteä.
 
-## Tulkinta ja muutokset
+## Tulkitseminen ja Muutokset
 
-- **Tulkinta:**
-    Mahdolliset epäselvyydet tai ennalta arvaamattomat tilanteet käsitellään lisenssin yleisen tarkoituksen mukaisesti. Lisenssinantaja voi antaa erityisiä tulkintoja, ja nämä tulkinnat ovat sitovia. Kiistatilanteissa voidaan nimetä neutraali kolmannen osapuolen sovittelija ratkaisemaan epäselvyydet.
+- **Tulkitseminen:**
+   Mahdollisia epäselvyyksiä tai ennalta arvaamattomia tilanteita käsitellään Lisenssin yleisen tarkoituksen mukaisesti. Lisenssinantaja voi antaa erityisiä tulkintoja, ja nämä tulkinnat ovat sitovia. Riitatilanteissa voidaan määrätä puolueeton kolmas osapuoli välittäjäksi ratkaisemaan epäselvyydet.
 
 - **Muutokset:**
-    Lisenssin muutokset käsitellään lisensoijan määrittämän prosessin mukaisesti. Käyttäjille ilmoitetaan muutoksista lisenssinhaltijan virallisten viestintäkanavien kautta ja heille annetaan perustelut ja vaikutukset. Käyttäjille annetaan mahdollisuus antaa palautetta tai vastalauseita määräajan (tyypillisesti 60 päivää) kuluessa. Merkittävät muutokset edellyttävät enemmistön hyväksyntää kontribuuttoreilta.
+   Lisenssiin tehtävät muutokset käsitellään Lisenssinantajan määrittämän prosessin mukaisesti. Käyttäjille ilmoitetaan kaikista muutoksista Lisenssinantajan virallisten viestintäkanavien kautta ja heille annetaan perustelut ja vaikutukset. Käyttäjillä on mahdollisuus antaa palautetta tai vastalauseita tietyn ajanjakson (tyypillisesti 60 päivää) aikana. Merkittävissä muutoksissa vaaditaan tekijöiden enemmistön hyväksyntä.
 
-## Suositeltava koodin otsikko
+## Suositeltu Koodiotsikko
 
 ```plaintext
-Tekijänoikeus (c) {{vuosi}} by {{nimi}}.
+Tekijänoikeus (c) {{vuosi}} {{nimi}}.
 
-Tämä tiedosto on lisensoitu Spyder Open Security License (SOSL) 1.0:n alaisena.
-Katso LICENSE.md tiedosto yksityiskohdista.
-```
+Tämä tiedosto on lisensoitu SPYDER Avoimen Turvallisuuden Lisenssillä (SOSL) 1.0. Katso lisätiedot LICENSE.md-tiedostosta.
 ```
