@@ -2,7 +2,7 @@
 
 ## Readme Badge
 
-[![License: SOSL v1](https://img.shields.io/badge/License-SOSL_v1-orange.svg)](https://https://github.com/spyderorg/sosl)
+[![License: SOSL v1](https://img.shields.io/badge/License-SOSL_v1-orange.svg)](https://github.com/spyderorg/sosl)
 
 ## Languages
 
