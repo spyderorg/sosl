@@ -1,5 +1,9 @@
 # Spyder Open Security License (SOSL) 1.0
 
+## Readme Badge
+
+[![License: SOSL v1](https://img.shields.io/badge/License-SOSL_v1-orange.svg)](https://https://github.com/spyderorg/sosl)
+
 ## Languages
 
 ### English (English)
